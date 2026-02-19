@@ -609,16 +609,9 @@ class Game:
                         opponent.active.put_damage_counters(moved)
             break
     
-    def _handle_attack(self, player: Player, opponent: Player, attack_idx: int):
-        if not player.active or attack_idx >= len(player.active.card.attacks):
-            return
-        attack = player.active.card.attacks[attack_idx]
-        if not player.active.can_use_attack(attack):
-            return
-        
-        self.has_attacked = True
-        eid = attack.effect_id
-        damage = attack.damage
+    def _resolve_effect(self, player: Player, opponent: Player, eid: str, base_damage: int) -> int:
+        """技の効果を解決してダメージ値を返す。副作用（ベンチダメカン等）もここで処理。"""
+        damage = base_damage
         
         if eid == "burning_darkness":
             damage = 180 + 30 * opponent.prizes_taken
@@ -708,30 +701,15 @@ class Game:
                 damage += 50
         elif eid == "genome_hacking":
             # Mew ex: Copy one of the opponent's Active Pokémon's attacks
-            # Use the highest-damage attack from opponent's active
+            # Select the best attack considering full effect resolution
             if opponent.active and opponent.active.card.attacks:
                 best_atk = max(opponent.active.card.attacks, key=lambda a: a.damage)
-                damage = best_atk.damage
-                # For attacks with special effects, apply the copied effect
                 copied_eid = best_atk.effect_id
-                if copied_eid == "phantom_dive":
-                    damage = 200
-                    if opponent.bench:
-                        counters_left = 6
-                        while counters_left > 0 and opponent.bench:
-                            target = random.choice(opponent.bench)
-                            target.put_damage_counters(1)
-                            counters_left -= 1
-                elif copied_eid == "burning_darkness":
-                    damage = 180 + 30 * opponent.prizes_taken
-                elif copied_eid == "shadow_bind":
-                    damage = 150
-                    if opponent.active:
-                        opponent.active.cant_retreat_next = True
-                elif copied_eid == "eon_blade":
-                    damage = 200
-                    player.active.cant_attack_next = True
-                # Other effects: just use base damage
+                # Recursively resolve the copied attack's effect (prevent infinite loop)
+                if copied_eid and copied_eid != "genome_hacking":
+                    damage = self._resolve_effect(player, opponent, copied_eid, best_atk.damage)
+                else:
+                    damage = best_atk.damage
             else:
                 damage = 0
         elif eid == "assault_landing":
@@ -754,6 +732,18 @@ class Game:
                         player.place_bench_from_deck(c)
                         player.shuffle_deck()
             damage = 0
+        
+        return damage
+
+    def _handle_attack(self, player: Player, opponent: Player, attack_idx: int):
+        if not player.active or attack_idx >= len(player.active.card.attacks):
+            return
+        attack = player.active.card.attacks[attack_idx]
+        if not player.active.can_use_attack(attack):
+            return
+        
+        self.has_attacked = True
+        damage = self._resolve_effect(player, opponent, attack.effect_id, attack.damage)
         
         # Vitality Band
         if player.active.tool and player.active.tool.effect_id == "vitality_band":
