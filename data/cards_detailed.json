@@ -1,0 +1,2575 @@
+[
+  {
+    "id": "OBF-125",
+    "set": "OBF",
+    "number": "125",
+    "name": "Charizard ex - Obsidian Flames",
+    "hp": 330,
+    "category": "pokemon",
+    "type": "Dark",
+    "stage": "Stage 2",
+    "evolvesFrom": "Charmeleon",
+    "abilities": [
+      {
+        "name": "Tera",
+        "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+      },
+      {
+        "name": "Infernal Reign",
+        "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic [R] Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Burning Darkness",
+        "damage": "180+",
+        "text": "This attack does 30 more damage for each Prize card your opponent has taken.",
+        "cost": [
+          "Fire",
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Grass",
+    "retreatCost": 2,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).\n\n\n\n                        Ability: \n                         Infernal Reign                     \n\n                         When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic [R] Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.                     \n\n\n\nRR\n        Burning Darkness 180+\n    \n\n         This attack does 30 more damage for each Prize card your opponent has taken."
+  },
+  {
+    "id": "MEG-114",
+    "set": "MEG",
+    "number": "114",
+    "name": "Boss's Orders - Mega Evolution",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
+  },
+  {
+    "id": "PAL-190",
+    "set": "PAL",
+    "number": "190",
+    "name": "Jet Energy - Paldea Evolved",
+    "text": "As long as this card is attached to a Pokémon, it provides [C] Energy. When you attach this card from your hand to 1 of your Benched Pokémon, switch that Pokémon with your Active Pokémon.",
+    "category": "energy",
+    "energyType": "special"
+  },
+  {
+    "id": "MEG-113",
+    "set": "MEG",
+    "number": "113",
+    "name": "Acerola's Mischief - Mega Evolution",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "You can use this card only if your opponent has 2 or fewer Prize cards remaining.Choose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex."
+  },
+  {
+    "id": "ASC-181",
+    "set": "ASC",
+    "number": "181",
+    "name": "Air Balloon - Ascended Heroes",
+    "category": "trainer",
+    "trainerType": "Tool",
+    "text": "The Retreat Cost of the Pokémon this card is attached to is [C][C] less."
+  },
+  {
+    "id": "SCR-131",
+    "set": "SCR",
+    "number": "131",
+    "name": "Area Zero Underdepths - Stellar Crown",
+    "category": "trainer",
+    "trainerType": "Stadium",
+    "text": "Each player who has any Tera Pokémon in play can have up to 8 Pokémon on their Bench.If a player no longer has any Tera Pokémon in play, that player discards Pokémon from their Bench until they have 5. When this card leaves play, both players discard Pokémon from their Bench until they have 5, and the player who played this card discards first."
+  },
+  {
+    "id": "PAL-171",
+    "set": "PAL",
+    "number": "171",
+    "name": "Artazon - Paldea Evolved",
+    "category": "trainer",
+    "trainerType": "Stadium",
+    "text": "Once during each player's turn, that player may search their deck for a Basic Pokémon that doesn’t have a Rule Box and put it onto their Bench. Then, that player shuffles their deck. (Pokémon ex, Pokémon V, etc. have Rule Boxes.)"
+  },
+  {
+    "id": "OBF-186",
+    "set": "OBF",
+    "number": "186",
+    "name": "Arven - Obsidian Flames",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Search your deck for an Item card and a Pokémon Tool card, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  {
+    "id": "SCR-132",
+    "set": "SCR",
+    "number": "132",
+    "name": "Briar - Stellar Crown",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "You can use this card only if your opponent has exactly 2 Prize cards remaining.During this turn, if your opponent's Active Pokémon is Knocked Out by damage from an attack used by your Tera Pokémon, take 1 more Prize card."
+  },
+  {
+    "id": "TEF-144",
+    "set": "TEF",
+    "number": "144",
+    "name": "Buddy-Buddy Poffin - Temporal Forces",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck."
+  },
+  {
+    "id": "ASC-16",
+    "set": "ASC",
+    "number": "16",
+    "name": "Budew - Ascended Heroes",
+    "hp": 30,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Itchy Pollen",
+        "damage": "10",
+        "text": "During your opponent's next turn, they can't play any Item cards from their hand.",
+        "cost": []
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 0,
+    "text": "0\n        Itchy Pollen 10\n    \n\n         During your opponent's next turn, they can't play any Item cards from their hand."
+  },
+  {
+    "id": "PAF-7",
+    "set": "PAF",
+    "number": "7",
+    "name": "Charmander - Paldean Fates",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Steady Firebreathing",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 1,
+    "text": "R\n        Blazing Destruction \n    \n\n         Discard a Stadium in play.     \n\n\n\nRR\n        Steady Firebreathing 30"
+  },
+  {
+    "id": "PFL-11",
+    "set": "PFL",
+    "number": "11",
+    "name": "Charmander - Phantasmal Flames",
+    "hp": 80,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "ability": {
+      "name": "Agile",
+      "text": "If this Pokémon has no Energy attached, it has no Retreat Cost."
+    },
+    "attacks": [
+      {
+        "name": "Live Coal",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Agile                     \n\n                         If this Pokémon has no Energy attached, it has no Retreat Cost.                     \n\n\n\nR\n        Live Coal 20"
+  },
+  {
+    "id": "PFL-12",
+    "set": "PFL",
+    "number": "12",
+    "name": "Charmeleon - Phantasmal Flames",
+    "hp": 110,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 1",
+    "evolvesFrom": "Charmander",
+    "attacks": [
+      {
+        "name": "Steady Firebreathing",
+        "damage": "40",
+        "text": "",
+        "cost": [
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "R\n        Steady Firebreathing 40"
+  },
+  {
+    "id": "PAR-29",
+    "set": "PAR",
+    "number": "29",
+    "name": "Chi-Yu - Paradox Rift",
+    "hp": 110,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Megafire of Envy",
+        "damage": "50+",
+        "text": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage.",
+        "cost": [
+          "Fire",
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 1,
+    "text": "R\n        Flare Bringer \n    \n\n         Attach up to 2 Basic [R] Energy cards from your discard pile to 1 of your Pokémon.     \n\n\n\nRR\n        Megafire of Envy 50+\n    \n\n         If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 90 more damage."
+  },
+  {
+    "id": "PAR-160",
+    "set": "PAR",
+    "number": "160",
+    "name": "Counter Catcher - Paradox Rift",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "You can play this card only if you have more Prize cards remaining than your opponent.Switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+  },
+  {
+    "id": "SCR-133",
+    "set": "SCR",
+    "number": "133",
+    "name": "Crispin - Stellar Crown",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Search your deck for up to 2 Basic Energy cards of different types, reveal them, and put 1 of them into your hand. Attach the other to 1 of your Pokémon. Then, shuffle your deck."
+  },
+  {
+    "id": "PFL-87",
+    "set": "PFL",
+    "number": "87",
+    "name": "Dawn - Phantasmal Flames",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Search your deck for a Basic Pokémon, a Stage 1 Pokémon, and a Stage 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  {
+    "id": "MEW-132",
+    "set": "MEW",
+    "number": "132",
+    "name": "Ditto - Pokémon 151",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "ability": {
+      "name": "Transformative Start",
+      "text": "Once during your first turn, if this Pokémon is in the Active Spot, you may search your deck and choose a Basic Pokémon you find there, except any Ditto. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place. Then, shuffle your deck."
+    },
+    "attacks": [
+      {
+        "name": "Splup",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fighting",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Transformative Start                     \n\n                         Once during your first turn, if this Pokémon is in the Active Spot, you may search your deck and choose a Basic Pokémon you find there, except any Ditto. If you do, discard this Pokémon and all attached cards, and put the chosen Pokémon in its place. Then, shuffle your deck.                     \n\n\n\nC\n        Splup 10"
+  },
+  {
+    "id": "TWM-130",
+    "set": "TWM",
+    "number": "130",
+    "name": "Dragapult ex - Twilight Masquerade",
+    "hp": 320,
+    "category": "pokemon",
+    "type": "Dragon",
+    "stage": "Stage 2",
+    "evolvesFrom": "Drakloak",
+    "ability": {
+      "name": "Tera",
+      "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+    },
+    "attacks": [
+      {
+        "name": "Jet Headbutt",
+        "damage": "70",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Phantom Dive",
+        "damage": "200",
+        "text": "Put 6 damage counters on your opponent's Benched Pokémon in any way you like.",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ]
+      }
+    ],
+    "retreatCost": 1,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).\n\n\n\nC\n        Jet Headbutt 70\n    \n\n\n\n\n\nRP\n        Phantom Dive 200\n    \n\n         Put 6 damage counters on your opponent's Benched Pokémon in any way you like."
+  },
+  {
+    "id": "TWM-129",
+    "set": "TWM",
+    "number": "129",
+    "name": "Drakloak - Twilight Masquerade",
+    "hp": 90,
+    "category": "pokemon",
+    "type": "Dragon",
+    "stage": "Stage 1",
+    "evolvesFrom": "Dreepy",
+    "ability": {
+      "name": "Recon Directive",
+      "text": "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck."
+    },
+    "attacks": [
+      {
+        "name": "Dragon Headbutt",
+        "damage": "70",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ]
+      }
+    ],
+    "retreatCost": 1,
+    "text": "Ability: \n                         Recon Directive                     \n\n                         Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.                     \n\n\n\nRP\n        Dragon Headbutt 70"
+  },
+  {
+    "id": "TWM-128",
+    "set": "TWM",
+    "number": "128",
+    "name": "Dreepy - Twilight Masquerade",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Dragon",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Petty Grudge",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Bite",
+        "damage": "40",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Psychic"
+        ]
+      }
+    ],
+    "retreatCost": 1,
+    "text": "P\n        Petty Grudge 10\n    \n\n\n\n\n\nRP\n        Bite 40"
+  },
+  {
+    "id": "PRE-36",
+    "set": "PRE",
+    "number": "36",
+    "name": "Dusclops - Prismatic Evolutions",
+    "hp": 90,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Stage 1",
+    "evolvesFrom": "Duskull",
+    "ability": {
+      "name": "Cursed Blast",
+      "text": "Once during your turn, you may put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+    },
+    "attacks": [
+      {
+        "name": "Will-O-Wisp",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ]
+      }
+    ],
+    "weakness": "Darkness",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Cursed Blast                     \n\n                         Once during your turn, you may put 5 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.                     \n\n\n\nPP\n        Will-O-Wisp 50"
+  },
+  {
+    "id": "PRE-37",
+    "set": "PRE",
+    "number": "37",
+    "name": "Dusknoir - Prismatic Evolutions",
+    "hp": 160,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Stage 2",
+    "evolvesFrom": "Dusclops",
+    "ability": {
+      "name": "Cursed Blast",
+      "text": "Once during your turn, you may put 13 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out."
+    },
+    "attacks": [
+      {
+        "name": "Shadow Bind",
+        "damage": "150",
+        "text": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Darkness",
+    "retreatCost": 3,
+    "text": "Ability: \n                         Cursed Blast                     \n\n                         Once during your turn, you may put 13 damage counters on 1 of your opponent's Pokémon. If you use this Ability, this Pokémon is Knocked Out.                     \n\n\n\nPPC\n        Shadow Bind 150\n    \n\n         During your opponent's next turn, the Defending Pokémon can't retreat."
+  },
+  {
+    "id": "PRE-35",
+    "set": "PRE",
+    "number": "35",
+    "name": "Duskull - Prismatic Evolutions",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Mumble",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ]
+      }
+    ],
+    "weakness": "Darkness",
+    "retreatCost": 1,
+    "text": "P\n        Come and Get You \n    \n\n         Put up to 3 Duskull from your discard pile onto your Bench.     \n\n\n\nPP\n        Mumble 30"
+  },
+  {
+    "id": "PAR-163",
+    "set": "PAR",
+    "number": "163",
+    "name": "Earthen Vessel - Paradox Rift",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "You can use this card only if you discard another card from your hand.Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+  },
+  {
+    "id": "MEG-115",
+    "set": "MEG",
+    "number": "115",
+    "name": "Energy Switch - Mega Evolution",
+    "category": "energy",
+    "trainerType": "Item",
+    "text": "Move a basic Energy from 1 of your Pokémon to another of your Pokémon.",
+    "energyType": "special"
+  },
+  {
+    "id": "SCR-118",
+    "set": "SCR",
+    "number": "118",
+    "name": "Fan Rotom - Stellar Crown",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "ability": {
+      "name": "Fan Call",
+      "text": "Once during your first turn, you may search your deck for up to 3 [C] Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can't use more than 1 Fan Call Ability during your turn."
+    },
+    "attacks": [
+      {
+        "name": "Assault Landing",
+        "damage": "70",
+        "text": "If there is no Stadium in play, this attack does nothing.",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Fan Call                     \n\n                         Once during your first turn, you may search your deck for up to 3 [C] Pokémon with 100 HP or less, reveal them, and put them into your hand. Then, shuffle your deck. You can't use more than 1 Fan Call Ability during your turn.                     \n\n\n\nC\n        Assault Landing 70\n    \n\n         If there is no Stadium in play, this attack does nothing."
+  },
+  {
+    "id": "ASC-142",
+    "set": "ASC",
+    "number": "142",
+    "name": "Fezandipiti ex - Ascended Heroes",
+    "hp": 210,
+    "category": "pokemon",
+    "type": "Dark",
+    "stage": "Basic",
+    "ability": {
+      "name": "Flip the Script",
+      "text": "Once during your turn, if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Flip the Script Ability each turn."
+    },
+    "weakness": "Fighting",
+    "retreatCost": 1,
+    "isEx": true,
+    "text": "Ability: \n                         Flip the Script                     \n\n                         Once during your turn, if any of your Pokémon were Knocked Out during your opponent's last turn, you may draw 3 cards. You can't use more than 1 Flip the Script Ability each turn.                     \n\n\n\nCCC\n        Cruel Arrow \n    \n\n         This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+  },
+  {
+    "id": "SCR-135",
+    "set": "SCR",
+    "number": "135",
+    "name": "Glass Trumpet - Stellar Crown",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "You can use this card only if you have any Tera Pokémon in play.Choose up to 2 of your Benched [C] Pokémon and attach a Basic Energy card from your discard pile to each of them."
+  },
+  {
+    "id": "SVI-118",
+    "set": "SVI",
+    "number": "118",
+    "name": "Hawlucha - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Fighting",
+    "stage": "Basic",
+    "ability": {
+      "name": "Flying Entry",
+      "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them."
+    },
+    "attacks": [
+      {
+        "name": "Wing Attack",
+        "damage": "70",
+        "text": "",
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Psychic",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Flying Entry                     \n\n                         When you play this Pokémon from your hand onto your Bench during your turn, you may choose 2 of your opponent's Benched Pokémon and put 1 damage counter on each of them.                     \n\n\n\nFCC\n        Wing Attack 70"
+  },
+  {
+    "id": "PRE-77",
+    "set": "PRE",
+    "number": "77",
+    "name": "Hoothoot - Prismatic Evolutions",
+    "hp": 80,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "ability": {
+      "name": "Insomnia",
+      "text": "This Pokémon can't be Asleep."
+    },
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Insomnia                     \n\n                         This Pokémon can't be Asleep.                     \n\n\n\nCC\n        Tackle 20"
+  },
+  {
+    "id": "SCR-114",
+    "set": "SCR",
+    "number": "114",
+    "name": "Hoothoot - Stellar Crown",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "C\n        Triple Stab 10×\n    \n\n         Flip 3 coins. This attack does 10 damage for each heads."
+  },
+  {
+    "id": "PAL-185",
+    "set": "PAL",
+    "number": "185",
+    "name": "Iono - Paldea Evolved",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, each player draws a card for each of their remaining Prize cards."
+  },
+  {
+    "id": "SVI-96",
+    "set": "SVI",
+    "number": "96",
+    "name": "Klefki - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Basic",
+    "ability": {
+      "name": "Mischievous Lock",
+      "text": "As long as this Pokémon is in the Active Spot, Basic Pokémon in play (both yours and your opponent's) have no Abilities, except for Mischievous Lock."
+    },
+    "attacks": [
+      {
+        "name": "Joust",
+        "damage": "10",
+        "text": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Metal",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Mischievous Lock                     \n\n                         As long as this Pokémon is in the Active Spot, Basic Pokémon in play (both yours and your opponent's) have no Abilities, except for Mischievous Lock.                     \n\n\n\nC\n        Joust 10\n    \n\n         Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+  },
+  {
+    "id": "SSP-76",
+    "set": "SSP",
+    "number": "76",
+    "name": "Latias ex - Surging Sparks",
+    "hp": 210,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Basic",
+    "ability": {
+      "name": "Skyliner",
+      "text": "Your Basic Pokémon in play have no Retreat Cost."
+    },
+    "attacks": [
+      {
+        "name": "Eon Blade",
+        "damage": "200",
+        "text": "During your next turn, this Pokémon can't attack.",
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Darkness",
+    "retreatCost": 2,
+    "isEx": true,
+    "text": "Ability: \n                         Skyliner                     \n\n                         Your Basic Pokémon in play have no Retreat Cost.                     \n\n\n\nPPC\n        Eon Blade 200\n    \n\n         During your next turn, this Pokémon can't attack."
+  },
+  {
+    "id": "MEG-119",
+    "set": "MEG",
+    "number": "119",
+    "name": "Lillie's Determination - Mega Evolution",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Shuffle your hand into your deck. Then, draw 6 cards. If you have exactly 6 Prize cards remaining, draw 8 cards instead."
+  },
+  {
+    "id": "MEG-104",
+    "set": "MEG",
+    "number": "104",
+    "name": "Mega Kangaskhan ex - Mega Evolution",
+    "hp": 300,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "ability": {
+      "name": "Run Errand",
+      "text": "Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn."
+    },
+    "attacks": [
+      {
+        "name": "Rapid-Fire Combo",
+        "damage": "200+",
+        "text": "Flip a coin until you get tails. This attack does 50 more damage for each heads.",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fighting",
+    "retreatCost": 3,
+    "isEx": true,
+    "text": "Ability: \n                         Run Errand                     \n\n                         Once during your turn, if this Pokémon is in the Active Spot, you may use this Ability. Draw 2 cards. You can't use more than 1 Run Errand Ability each turn.                     \n\n\n\nCCC\n        Rapid-Fire Combo 200+\n    \n\n         Flip a coin until you get tails. This attack does 50 more damage for each heads."
+  },
+  {
+    "id": "MEW-151",
+    "set": "MEW",
+    "number": "151",
+    "name": "Mew ex - Pokémon 151",
+    "hp": 180,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Basic",
+    "ability": {
+      "name": "Restart",
+      "text": "Once during your turn, you may draw cards until you have 3 cards in your hand."
+    },
+    "weakness": "Darkness",
+    "retreatCost": 0,
+    "isEx": true,
+    "text": "Ability: \n                         Restart                     \n\n                         Once during your turn, you may draw cards until you have 3 cards in your hand.                     \n\n\n\nCCC\n        Genome Hacking \n    \n\n         Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+  },
+  {
+    "id": "TWM-95",
+    "set": "TWM",
+    "number": "95",
+    "name": "Munkidori - Twilight Masquerade",
+    "hp": 110,
+    "category": "pokemon",
+    "type": "Psychic",
+    "stage": "Basic",
+    "ability": {
+      "name": "Adrena-Brain",
+      "text": "Once during your turn, if this Pokémon has any [D] Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Mind Bend",
+        "damage": "60",
+        "text": "Your opponent's Active Pokémon is now Confused.",
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Darkness",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Adrena-Brain                     \n\n                         Once during your turn, if this Pokémon has any [D] Energy attached, you may move up to 3 damage counters from 1 of your Pokémon to 1 of your opponent's Pokémon.                     \n\n\n\nPC\n        Mind Bend 60\n    \n\n         Your opponent's Active Pokémon is now Confused."
+  },
+  {
+    "id": "SVI-181",
+    "set": "SVI",
+    "number": "181",
+    "name": "Nest Ball - Scarlet & Violet",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+  },
+  {
+    "id": "ASC-196",
+    "set": "ASC",
+    "number": "196",
+    "name": "Night Stretcher - Ascended Heroes",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Put a Pokémon or a Basic Energy card from your discard pile into your hand."
+  },
+  {
+    "id": "SCR-115",
+    "set": "SCR",
+    "number": "115",
+    "name": "Noctowl - Stellar Crown",
+    "hp": 100,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Stage 1",
+    "evolvesFrom": "Hoothoot",
+    "ability": {
+      "name": "Jewel Seeker",
+      "text": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck."
+    },
+    "attacks": [
+      {
+        "name": "Speed Wing",
+        "damage": "60",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Jewel Seeker                     \n\n                         Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, if you have any Tera Pokémon in play, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck.                     \n\n\n\nCC\n        Speed Wing 60"
+  },
+  {
+    "id": "OBF-164",
+    "set": "OBF",
+    "number": "164",
+    "name": "Pidgeot ex - Obsidian Flames",
+    "hp": 280,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Stage 2",
+    "evolvesFrom": "Pidgeotto",
+    "ability": {
+      "name": "Quick Search",
+      "text": "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn."
+    },
+    "attacks": [
+      {
+        "name": "Blustery Wind",
+        "damage": "120",
+        "text": "You may discard a Stadium in play.",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 0,
+    "isEx": true,
+    "text": "Ability: \n                         Quick Search                     \n\n                         Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.                     \n\n\n\nCC\n        Blustery Wind 120\n    \n\n         You may discard a Stadium in play."
+  },
+  {
+    "id": "MEW-17",
+    "set": "MEW",
+    "number": "17",
+    "name": "Pidgeotto - Pokémon 151",
+    "hp": 80,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Stage 1",
+    "evolvesFrom": "Pidgey",
+    "attacks": [
+      {
+        "name": "Flap",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 0,
+    "text": "C\n        Flap 20"
+  },
+  {
+    "id": "MEW-16",
+    "set": "MEW",
+    "number": "16",
+    "name": "Pidgey - Pokémon 151",
+    "hp": 50,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "C\n        Call for Family \n    \n\n         Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.     \n\n\n\nCC\n        Tackle 20"
+  },
+  {
+    "id": "OBF-162",
+    "set": "OBF",
+    "number": "162",
+    "name": "Pidgey - Obsidian Flames",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Gust",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "C\n        Gust 20"
+  },
+  {
+    "id": "TEF-157",
+    "set": "TEF",
+    "number": "157",
+    "name": "Prime Catcher - Temporal Forces",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. If you do, switch your Active Pokémon with 1 of your Benched Pokémon."
+  },
+  {
+    "id": "PAR-170",
+    "set": "PAR",
+    "number": "170",
+    "name": "Professor Sada's Vitality - Paradox Rift",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Choose up to 2 of your Ancient Pokémon and attach a Basic Energy card from your discard pile to each of them. If you attached any Energy in this way, draw 3 cards."
+  },
+  {
+    "id": "PAR-171",
+    "set": "PAR",
+    "number": "171",
+    "name": "Professor Turo's Scenario - Paradox Rift",
+    "category": "trainer",
+    "trainerType": "Supporter",
+    "text": "Put 1 of your Pokémon in play into your hand. (Discard all cards attached to that Pokémon.)"
+  },
+  {
+    "id": "ASC-39",
+    "set": "ASC",
+    "number": "39",
+    "name": "Psyduck - Ascended Heroes",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "ability": {
+      "name": "Damp",
+      "text": "Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself."
+    },
+    "attacks": [
+      {
+        "name": "Ram",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Damp                     \n\n                         Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself.                     \n\n\n\nCC\n        Ram 20"
+  },
+  {
+    "id": "SCR-111",
+    "set": "SCR",
+    "number": "111",
+    "name": "Raging Bolt - Stellar Crown",
+    "hp": 130,
+    "category": "pokemon",
+    "type": "Dragon",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Dragon Headbutt",
+        "damage": "130",
+        "text": "",
+        "cost": [
+          "Electric",
+          "Fighting",
+          "Colorless"
+        ]
+      }
+    ],
+    "retreatCost": 3,
+    "text": "LF\n        Thunderburst Storm \n    \n\n         This attack does 30 damage to 1 of your opponent's Pokémon for each Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) \n\n\n\nLFC\n        Dragon Headbutt 130"
+  },
+  {
+    "id": "TEF-123",
+    "set": "TEF",
+    "number": "123",
+    "name": "Raging Bolt ex - Temporal Forces",
+    "hp": 240,
+    "category": "pokemon",
+    "type": "Dragon",
+    "stage": "Basic",
+    "retreatCost": 3,
+    "isEx": true,
+    "text": "C\n        Burst Roar \n    \n\n         Discard your hand and draw 6 cards.     \n\n\n\nLF\n        Bellowing Thunder 70×\n    \n\n         You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way."
+  },
+  {
+    "id": "MEG-125",
+    "set": "MEG",
+    "number": "125",
+    "name": "Rare Candy - Mega Evolution",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Choose 1 of your Basic Pokémon in play. If you have a Stage 2 card in your hand that evolves from that Pokémon, put that card on the Basic Pokémon. (This counts as evolving that Pokémon.) You can't use this card during your first turn or on a Basic Pokémon that was put into play this turn."
+  },
+  {
+    "id": "PAL-188",
+    "set": "PAL",
+    "number": "188",
+    "name": "Super Rod - Paldea Evolved",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "Shuffle up to 3 in any combination of Pokémon and basic Energy cards from your discard pile back into your deck."
+  },
+  {
+    "id": "TWM-25",
+    "set": "TWM",
+    "number": "25",
+    "name": "Teal Mask Ogerpon ex - Twilight Masquerade",
+    "hp": 210,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "abilities": [
+      {
+        "name": "Tera",
+        "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+      },
+      {
+        "name": "Teal Dance",
+        "text": "Once during your turn, you may attach a Basic [G] Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card."
+      }
+    ],
+    "attacks": [
+      {
+        "name": "Myriad Leaf Shower",
+        "damage": "30+",
+        "text": "This attack does 30 more damage for each Energy attached to both Active Pokémon.",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).\n\n\n\n                        Ability: \n                         Teal Dance                     \n\n                         Once during your turn, you may attach a Basic [G] Energy card from your hand to this Pokémon. If you attached Energy to a Pokémon in this way, draw a card.                     \n\n\n\nGGG\n        Myriad Leaf Shower 30+\n    \n\n         This attack does 30 more damage for each Energy attached to both Active Pokémon."
+  },
+  {
+    "id": "PAR-178",
+    "set": "PAR",
+    "number": "178",
+    "name": "Technical Machine: Evolution - Paradox Rift",
+    "category": "trainer",
+    "trainerType": "Tool",
+    "text": "The Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.) If this card is attached to 1 of your Pokémon, discard it at the end of your turn.[C] EvolutionChoose up to 2 of your Benched Pokémon. For each of those Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck."
+  },
+  {
+    "id": "SCR-128",
+    "set": "SCR",
+    "number": "128",
+    "name": "Terapagos ex - Stellar Crown",
+    "hp": 230,
+    "category": "pokemon",
+    "type": "Colorless",
+    "stage": "Basic",
+    "ability": {
+      "name": "Tera",
+      "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+    },
+    "attacks": [
+      {
+        "name": "Crown Opal",
+        "damage": "180",
+        "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic non-[C] Pokémon.",
+        "cost": [
+          "Grass",
+          "Water",
+          "Electric"
+        ]
+      }
+    ],
+    "weakness": "Fighting",
+    "retreatCost": 2,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).\n\n\n\nCC\n        Unified Beatdown 30×\n    \n\n         If you go second, you can't use this attack during your first turn. This attack does 30 damage for each of your Benched Pokémon.     \n\n\n\nGWL\n        Crown Opal 180\n    \n\n         During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic non-[C] Pokémon."
+  },
+  {
+    "id": "MEG-131",
+    "set": "MEG",
+    "number": "131",
+    "name": "Ultra Ball - Mega Evolution",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "You can use this card only if you discard 2 other cards from your hand.Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+  },
+  {
+    "id": "TWM-165",
+    "set": "TWM",
+    "number": "165",
+    "name": "Unfair Stamp - Twilight Masquerade",
+    "category": "trainer",
+    "trainerType": "Item",
+    "text": "You can use this card only if any of your Pokémon were Knocked Out during your opponent's last turn.Each player shuffles their hand into their deck. Then, you draw 5 cards, and your opponent draws 2 cards."
+  },
+  {
+    "id": "SVI-197",
+    "set": "SVI",
+    "number": "197",
+    "name": "Vitality Band - Scarlet & Violet",
+    "category": "trainer",
+    "trainerType": "Tool",
+    "text": "The attacks of the Pokémon this card is attached to do 10 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+  },
+  {
+    "id": "TWM-64",
+    "set": "TWM",
+    "number": "64",
+    "name": "Wellspring Mask Ogerpon ex - Twilight Masquerade",
+    "hp": 210,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "ability": {
+      "name": "Tera",
+      "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s)."
+    },
+    "attacks": [
+      {
+        "name": "Sob",
+        "damage": "20",
+        "text": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Torrential Pump",
+        "damage": "100",
+        "text": "You may shuffle 3 Energy attached to this Pokémon into your deck. If you do, this attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+        "cost": [
+          "Water",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent’s).\n\n\n\nC\n        Sob 20\n    \n\n         During your opponent's next turn, the Defending Pokémon can't retreat.     \n\n\n\nWCC\n        Torrential Pump 100\n    \n\n         You may shuffle 3 Energy attached to this Pokémon into your deck. If you do, this attack also does 120 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+  },
+  {
+    "id": "PAL-191",
+    "set": "PAL",
+    "number": "191",
+    "name": "Luminous Energy - Paldea Evolved",
+    "text": "As long as this card is attached to a Pokémon, it provides every type of Energy but provides only 1 Energy at a time.If the Pokémon this card is attached to has any other Special Energy attached, this card provides [C] Energy instead.",
+    "category": "energy",
+    "energyType": "special"
+  },
+  {
+    "id": "SVI-1",
+    "set": "SVI",
+    "number": "1",
+    "name": "Pineco - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Guard Press",
+        "damage": "10",
+        "text": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "CC\n        Guard Press 10\n    \n\n         During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+  },
+  {
+    "id": "SVI-2",
+    "set": "SVI",
+    "number": "2",
+    "name": "Heracross - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Superpowered Throw",
+        "damage": "10+",
+        "text": "This attack does 30 more damage for each [C] in your opponent's Active Pokémon’s Retreat Cost.",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Horn Attack",
+        "damage": "90",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "GC\n        Superpowered Throw 10+\n    \n\n         This attack does 30 more damage for each [C] in your opponent's Active Pokémon’s Retreat Cost.     \n\n\n\nGGC\n        Horn Attack 90"
+  },
+  {
+    "id": "SVI-3",
+    "set": "SVI",
+    "number": "3",
+    "name": "Shroomish - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Absorb",
+        "damage": "10",
+        "text": "Heal 10 damage from this Pokémon.",
+        "cost": [
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Absorb 10\n    \n\n         Heal 10 damage from this Pokémon."
+  },
+  {
+    "id": "SVI-4",
+    "set": "SVI",
+    "number": "4",
+    "name": "Breloom - Scarlet & Violet",
+    "hp": 110,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Shroomish",
+    "attacks": [
+      {
+        "name": "Mach Cross",
+        "damage": "60",
+        "text": "",
+        "cost": [
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Mach Cross 60"
+  },
+  {
+    "id": "SVI-5",
+    "set": "SVI",
+    "number": "5",
+    "name": "Cacnea - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "ability": {
+      "name": "Counterattack Quills",
+      "text": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Light Punch",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Counterattack Quills                     \n\n                         If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.                     \n\n\n\nCC\n        Light Punch 30"
+  },
+  {
+    "id": "SVI-6",
+    "set": "SVI",
+    "number": "6",
+    "name": "Cacturne - Scarlet & Violet",
+    "hp": 130,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Cacnea",
+    "ability": {
+      "name": "Counterattack Quills",
+      "text": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Spike Shot",
+        "damage": "110",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Counterattack Quills                     \n\n                         If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 3 damage counters on the Attacking Pokémon.                     \n\n\n\nCCC\n        Spike Shot 110"
+  },
+  {
+    "id": "SVI-7",
+    "set": "SVI",
+    "number": "7",
+    "name": "Tropius - Scarlet & Violet",
+    "hp": 100,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Razor Leaf",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Fresh-Picked Fruit \n    \n\n         Heal 60 damage from 1 of your Benched Pokémon.     \n\n\n\nGC\n        Razor Leaf 50"
+  },
+  {
+    "id": "SVI-8",
+    "set": "SVI",
+    "number": "8",
+    "name": "Scatterbug - Scarlet & Violet",
+    "hp": 30,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "ability": {
+      "name": "Adaptive Evolution",
+      "text": "This Pokémon can evolve during your first turn or the turn you play it."
+    },
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "Ability: \n                         Adaptive Evolution                     \n\n                         This Pokémon can evolve during your first turn or the turn you play it.                     \n\n\n\nGC\n        Tackle 20"
+  },
+  {
+    "id": "SVI-9",
+    "set": "SVI",
+    "number": "9",
+    "name": "Spewpa - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Scatterbug",
+    "ability": {
+      "name": "Adaptive Evolution",
+      "text": "This Pokémon can evolve during your first turn or the turn you play it."
+    },
+    "attacks": [
+      {
+        "name": "Bug Bite",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 3,
+    "text": "Ability: \n                         Adaptive Evolution                     \n\n                         This Pokémon can evolve during your first turn or the turn you play it.                     \n\n\n\nGC\n        Bug Bite 30"
+  },
+  {
+    "id": "SVI-10",
+    "set": "SVI",
+    "number": "10",
+    "name": "Vivillon - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 2",
+    "evolvesFrom": "Spewpa",
+    "attacks": [
+      {
+        "name": "Miracle Powder",
+        "damage": "50",
+        "text": "Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.",
+        "cost": [
+          "Grass"
+        ]
+      },
+      {
+        "name": "Bug Buzz",
+        "damage": "110",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Miracle Powder 50\n    \n\n         Flip a coin. If heads, choose a Special Condition. Your opponent's Active Pokémon is now affected by that Special Condition.     \n\n\n\nGC\n        Bug Buzz 110"
+  },
+  {
+    "id": "SVI-11",
+    "set": "SVI",
+    "number": "11",
+    "name": "Skiddo - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Vine Whip",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Grass"
+        ]
+      },
+      {
+        "name": "Smash Kick",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Vine Whip 10\n    \n\n\n\n\n\nCC\n        Smash Kick 20"
+  },
+  {
+    "id": "SVI-12",
+    "set": "SVI",
+    "number": "12",
+    "name": "Gogoat - Scarlet & Violet",
+    "hp": 130,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Skiddo",
+    "attacks": [
+      {
+        "name": "Rising Lunge",
+        "damage": "30+",
+        "text": "Flip a coin. If heads, this attack does 30 more damage.",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Solar Beam",
+        "damage": "110",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "CC\n        Rising Lunge 30+\n    \n\n         Flip a coin. If heads, this attack does 30 more damage.     \n\n\n\nGCC\n        Solar Beam 110"
+  },
+  {
+    "id": "SVI-13",
+    "set": "SVI",
+    "number": "13",
+    "name": "Sprigatito - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Scratch",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Leafage",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Scratch 10\n    \n\n\n\n\n\nGC\n        Leafage 20"
+  },
+  {
+    "id": "SVI-14",
+    "set": "SVI",
+    "number": "14",
+    "name": "Floragato - Scarlet & Violet",
+    "hp": 90,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Sprigatito",
+    "attacks": [
+      {
+        "name": "Slash",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Leaf Step",
+        "damage": "60",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Slash 20\n    \n\n\n\n\n\nGC\n        Leaf Step 60"
+  },
+  {
+    "id": "SVI-15",
+    "set": "SVI",
+    "number": "15",
+    "name": "Meowscarada - Scarlet & Violet",
+    "hp": 160,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 2",
+    "evolvesFrom": "Floragato",
+    "attacks": [
+      {
+        "name": "Trick Cape",
+        "damage": "40",
+        "text": "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Flower Blast",
+        "damage": "130",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Trick Cape 40\n    \n\n         You may put an Energy attached to your opponent's Active Pokémon into their hand.     \n\n\n\nGC\n        Flower Blast 130"
+  },
+  {
+    "id": "SVI-16",
+    "set": "SVI",
+    "number": "16",
+    "name": "Tarountula - Scarlet & Violet",
+    "hp": 40,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Bug Bite",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        String Haul \n    \n\n         Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.     \n\n\n\nG\n        Bug Bite 10"
+  },
+  {
+    "id": "SVI-17",
+    "set": "SVI",
+    "number": "17",
+    "name": "Tarountula - Scarlet & Violet",
+    "hp": 40,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "String Shot",
+        "damage": "20",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "GC\n        String Shot 20\n    \n\n         Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+  },
+  {
+    "id": "SVI-18",
+    "set": "SVI",
+    "number": "18",
+    "name": "Tarountula - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Surprise Attack",
+        "damage": "30",
+        "text": "Flip a coin. If tails, this attack does nothing.",
+        "cost": [
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "G\n        Surprise Attack 30\n    \n\n         Flip a coin. If tails, this attack does nothing."
+  },
+  {
+    "id": "SVI-19",
+    "set": "SVI",
+    "number": "19",
+    "name": "Spidops ex - Scarlet & Violet",
+    "hp": 260,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Tarountula",
+    "ability": {
+      "name": "Trap Territory",
+      "text": "Your opponent's Active Pokémon’s Retreat Cost is [C] more."
+    },
+    "attacks": [
+      {
+        "name": "Wire Hang",
+        "damage": "90+",
+        "text": "This attack does 30 more damage for each [C] in your opponent's Active Pokémon’s Retreat Cost.",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "isEx": true,
+    "text": "Ability: \n                         Trap Territory                     \n\n                         Your opponent's Active Pokémon’s Retreat Cost is [C] more.                     \n\n\n\nGC\n        Wire Hang 90+\n    \n\n         This attack does 30 more damage for each [C] in your opponent's Active Pokémon’s Retreat Cost."
+  },
+  {
+    "id": "SVI-20",
+    "set": "SVI",
+    "number": "20",
+    "name": "Smoliv - Scarlet & Violet",
+    "hp": 50,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Tackle",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "CC\n        Tackle 30"
+  },
+  {
+    "id": "SVI-21",
+    "set": "SVI",
+    "number": "21",
+    "name": "Smoliv - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Spray Fluid",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Nutrients \n    \n\n         Heal 30 damage from 1 of your Pokémon.     \n\n\n\nGC\n        Spray Fluid 20"
+  },
+  {
+    "id": "SVI-22",
+    "set": "SVI",
+    "number": "22",
+    "name": "Dolliv - Scarlet & Violet",
+    "hp": 90,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Smoliv",
+    "attacks": [
+      {
+        "name": "Slap",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Apply Oil",
+        "damage": "40",
+        "text": "During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn’t happen.",
+        "cost": [
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Slap 20\n    \n\n\n\n\n\nGC\n        Apply Oil 40\n    \n\n         During your opponent's next turn, if the Defending Pokémon tries to attack, your opponent flips a coin. If tails, that attack doesn’t happen."
+  },
+  {
+    "id": "SVI-23",
+    "set": "SVI",
+    "number": "23",
+    "name": "Arboliva - Scarlet & Violet",
+    "hp": 150,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 2",
+    "evolvesFrom": "Dolliv",
+    "ability": {
+      "name": "Enriching Oil",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from 1 of your Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Solar Beam",
+        "damage": "150",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Grass",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Enriching Oil                     \n\n                         When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may heal all damage from 1 of your Pokémon.                     \n\n\n\nGGC\n        Solar Beam 150"
+  },
+  {
+    "id": "SVI-24",
+    "set": "SVI",
+    "number": "24",
+    "name": "Toedscool - Scarlet & Violet",
+    "hp": 50,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "G\n        Furious Kicks 10×\n    \n\n         Flip 3 coins. This attack does 10 damage for each heads."
+  },
+  {
+    "id": "SVI-25",
+    "set": "SVI",
+    "number": "25",
+    "name": "Toedscool - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Ram",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "G\n        Spore \n    \n\n         Your opponent's Active Pokémon is now Asleep.     \n\n\n\nCC\n        Ram 10"
+  },
+  {
+    "id": "SVI-26",
+    "set": "SVI",
+    "number": "26",
+    "name": "Toedscruel - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Toedscool",
+    "attacks": [
+      {
+        "name": "Eerie Tentacles",
+        "damage": "30",
+        "text": "You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+        "cost": [
+          "Grass"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 2,
+    "text": "G\n        Eerie Tentacles 30\n    \n\n         You may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.     \n\n\n\nGCC\n        Triple Smash 80×\n    \n\n         Flip 3 coins. This attack does 80 damage for each heads."
+  },
+  {
+    "id": "SVI-27",
+    "set": "SVI",
+    "number": "27",
+    "name": "Capsakid - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Slightly Spicy",
+        "damage": "10",
+        "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+        "cost": [
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Slightly Spicy 10\n    \n\n         Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+  },
+  {
+    "id": "SVI-28",
+    "set": "SVI",
+    "number": "28",
+    "name": "Capsakid - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Playful Kick",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Increasing Spice \n    \n\n         Search your deck for a Basic [R] Energy card and attach it to this Pokémon. Then, shuffle your deck.     \n\n\n\nGCC\n        Playful Kick 50"
+  },
+  {
+    "id": "SVI-29",
+    "set": "SVI",
+    "number": "29",
+    "name": "Scovillain - Scarlet & Violet",
+    "hp": 110,
+    "category": "pokemon",
+    "type": "Grass",
+    "stage": "Stage 1",
+    "evolvesFrom": "Capsakid",
+    "attacks": [
+      {
+        "name": "Hot Bite",
+        "damage": "20",
+        "text": "Your opponent's Active Pokémon is now Burned.",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Super Spicy Breath",
+        "damage": "90+",
+        "text": "If this Pokémon has any [R] Energy attached, this attack does 90 more damage.",
+        "cost": [
+          "Grass",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Fire",
+    "retreatCost": 1,
+    "text": "C\n        Hot Bite 20\n    \n\n         Your opponent's Active Pokémon is now Burned.     \n\n\n\nGCC\n        Super Spicy Breath 90+\n    \n\n         If this Pokémon has any [R] Energy attached, this attack does 90 more damage."
+  },
+  {
+    "id": "SVI-30",
+    "set": "SVI",
+    "number": "30",
+    "name": "Growlithe - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "R\n        Relentless Flames 30×\n    \n\n         Flip a coin until you get tails. This attack does 30 damage for each heads."
+  },
+  {
+    "id": "SVI-31",
+    "set": "SVI",
+    "number": "31",
+    "name": "Growlithe - Scarlet & Violet",
+    "hp": 90,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Fire Claws",
+        "damage": "70",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 3,
+    "text": "C\n        Stoke \n    \n\n         Search your deck for up to 2 Basic [R] Energy cards and attach them to this Pokémon. Then, shuffle your deck.     \n\n\n\nRRR\n        Fire Claws 70"
+  },
+  {
+    "id": "SVI-32",
+    "set": "SVI",
+    "number": "32",
+    "name": "Arcanine ex - Scarlet & Violet",
+    "hp": 280,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 1",
+    "evolvesFrom": "Growlithe",
+    "ability": {
+      "name": "Tera",
+      "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+    },
+    "attacks": [
+      {
+        "name": "Raging Claws",
+        "damage": "30+",
+        "text": "This attack does 10 more damage for each damage counter on this Pokémon.",
+        "cost": [
+          "Fire",
+          "Fire"
+        ]
+      },
+      {
+        "name": "Bright Flame",
+        "damage": "250",
+        "text": "Discard 2 [R] Energy from this Pokémon.",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 3,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).\n\n\n\nRR\n        Raging Claws 30+\n    \n\n         This attack does 10 more damage for each damage counter on this Pokémon.     \n\n\n\nRRR\n        Bright Flame 250\n    \n\n         Discard 2 [R] Energy from this Pokémon."
+  },
+  {
+    "id": "SVI-33",
+    "set": "SVI",
+    "number": "33",
+    "name": "Houndour - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Bite",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Flare",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 1,
+    "text": "C\n        Bite 10\n    \n\n\n\n\n\nRC\n        Flare 30"
+  },
+  {
+    "id": "SVI-34",
+    "set": "SVI",
+    "number": "34",
+    "name": "Houndoom - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 1",
+    "evolvesFrom": "Houndour",
+    "attacks": [
+      {
+        "name": "Sharp Fang",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Fire Blast",
+        "damage": "150",
+        "text": "Discard an Energy from this Pokémon.",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "C\n        Sharp Fang 30\n    \n\n\n\n\n\nRRC\n        Fire Blast 150\n    \n\n         Discard an Energy from this Pokémon."
+  },
+  {
+    "id": "SVI-35",
+    "set": "SVI",
+    "number": "35",
+    "name": "Torkoal - Scarlet & Violet",
+    "hp": 130,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Stampede",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 3,
+    "text": "CC\n        Stampede 30\n    \n\n\n\n\n\nRCC\n        Concentrated Fire 80×\n    \n\n         Flip a coin for each [R] Energy attached to this Pokémon. This attack does 80 damage for each heads."
+  },
+  {
+    "id": "SVI-36",
+    "set": "SVI",
+    "number": "36",
+    "name": "Fuecoco - Scarlet & Violet",
+    "hp": 80,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Gnaw",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Combustion",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "C\n        Gnaw 10\n    \n\n\n\n\n\nRRC\n        Combustion 50"
+  },
+  {
+    "id": "SVI-37",
+    "set": "SVI",
+    "number": "37",
+    "name": "Crocalor - Scarlet & Violet",
+    "hp": 100,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 1",
+    "evolvesFrom": "Fuecoco",
+    "attacks": [
+      {
+        "name": "Bite",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Rolling Tackle",
+        "damage": "100",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 3,
+    "text": "RC\n        Bite 50\n    \n\n\n\n\n\nRRC\n        Rolling Tackle 100"
+  },
+  {
+    "id": "SVI-38",
+    "set": "SVI",
+    "number": "38",
+    "name": "Skeledirge - Scarlet & Violet",
+    "hp": 180,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 2",
+    "evolvesFrom": "Crocalor",
+    "attacks": [
+      {
+        "name": "Passionate Singing",
+        "damage": "50",
+        "text": "Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.",
+        "cost": [
+          "Fire"
+        ]
+      },
+      {
+        "name": "Blazing Shout",
+        "damage": "190",
+        "text": "This Pokémon also does 30 damage to itself.",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 3,
+    "text": "R\n        Passionate Singing 50\n    \n\n         Attach up to 2 Basic Energy cards from your discard pile to your Pokémon in any way you like.     \n\n\n\nRRC\n        Blazing Shout 190\n    \n\n         This Pokémon also does 30 damage to itself."
+  },
+  {
+    "id": "SVI-39",
+    "set": "SVI",
+    "number": "39",
+    "name": "Charcadet - Scarlet & Violet",
+    "hp": 60,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Ember",
+        "damage": "30",
+        "text": "Discard an Energy from this Pokémon.",
+        "cost": [
+          "Fire"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 1,
+    "text": "R\n        Ember 30\n    \n\n         Discard an Energy from this Pokémon."
+  },
+  {
+    "id": "SVI-40",
+    "set": "SVI",
+    "number": "40",
+    "name": "Charcadet - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Heat Blast",
+        "damage": "60",
+        "text": "",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 1,
+    "text": "RRC\n        Heat Blast 60"
+  },
+  {
+    "id": "SVI-41",
+    "set": "SVI",
+    "number": "41",
+    "name": "Armarouge - Scarlet & Violet",
+    "hp": 130,
+    "category": "pokemon",
+    "type": "Fire",
+    "stage": "Stage 1",
+    "evolvesFrom": "Charcadet",
+    "ability": {
+      "name": "Fire Off",
+      "text": "As often as you like during your turn, you may move a [R] Energy from 1 of your Benched Pokémon to your Active Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Flame Cannon",
+        "damage": "90",
+        "text": "Your opponent's Active Pokémon is now Burned.",
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Water",
+    "retreatCost": 2,
+    "text": "Ability: \n                         Fire Off                     \n\n                         As often as you like during your turn, you may move a [R] Energy from 1 of your Benched Pokémon to your Active Pokémon.                     \n\n\n\nRRC\n        Flame Cannon 90\n    \n\n         Your opponent's Active Pokémon is now Burned."
+  },
+  {
+    "id": "SVI-42",
+    "set": "SVI",
+    "number": "42",
+    "name": "Slowpoke - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Headbutt",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Water",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 2,
+    "text": "C\n        Rest \n    \n\n         This Pokémon is now Asleep. Heal 30 damage from it.     \n\n\n\nWC\n        Headbutt 20"
+  },
+  {
+    "id": "SVI-43",
+    "set": "SVI",
+    "number": "43",
+    "name": "Slowbro - Scarlet & Violet",
+    "hp": 100,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Stage 1",
+    "evolvesFrom": "Slowpoke",
+    "ability": {
+      "name": "Strange Behavior",
+      "text": "As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon."
+    },
+    "attacks": [
+      {
+        "name": "Bubble Drain",
+        "damage": "60",
+        "text": "Heal 30 damage from this Pokémon.",
+        "cost": [
+          "Water",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 3,
+    "text": "Ability: \n                         Strange Behavior                     \n\n                         As often as you like during your turn, you may move 1 damage counter from 1 of your other Pokémon to this Pokémon.                     \n\n\n\nWC\n        Bubble Drain 60\n    \n\n         Heal 30 damage from this Pokémon."
+  },
+  {
+    "id": "SVI-44",
+    "set": "SVI",
+    "number": "44",
+    "name": "Magikarp - Scarlet & Violet",
+    "hp": 30,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "W\n        Jump \n    \n\n         Flip a coin. If heads, this attack does 10 damage to 1 of your opponent's Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+  },
+  {
+    "id": "SVI-45",
+    "set": "SVI",
+    "number": "45",
+    "name": "Gyarados ex - Scarlet & Violet",
+    "hp": 300,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Stage 1",
+    "evolvesFrom": "Magikarp",
+    "ability": {
+      "name": "Tera",
+      "text": "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+    },
+    "attacks": [
+      {
+        "name": "Waterfall",
+        "damage": "100",
+        "text": "",
+        "cost": [
+          "Water",
+          "Water",
+          "Water"
+        ]
+      },
+      {
+        "name": "Tyrannical Tail",
+        "damage": "180+",
+        "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 180 more damage.",
+        "cost": [
+          "Water",
+          "Water",
+          "Water",
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 4,
+    "isEx": true,
+    "text": "Tera\nAs long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).\n\n\n\nWWW\n        Waterfall 100\n    \n\n\n\n\n\nWWWCC\n        Tyrannical Tail 180+\n    \n\n         If your opponent's Active Pokémon already has any damage counters on it, this attack does 180 more damage."
+  },
+  {
+    "id": "SVI-46",
+    "set": "SVI",
+    "number": "46",
+    "name": "Buizel - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Rain Splash",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Water"
+        ]
+      },
+      {
+        "name": "Razor Fin",
+        "damage": "20",
+        "text": "",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "W\n        Rain Splash 10\n    \n\n\n\n\n\nCC\n        Razor Fin 20"
+  },
+  {
+    "id": "SVI-47",
+    "set": "SVI",
+    "number": "47",
+    "name": "Floatzel - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Stage 1",
+    "evolvesFrom": "Buizel",
+    "attacks": [
+      {
+        "name": "Hydro Pump",
+        "damage": "50+",
+        "text": "This attack does 20 more damage for each [W] Energy attached to this Pokémon.",
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "CC\n        Hydro Pump 50+\n    \n\n         This attack does 20 more damage for each [W] Energy attached to this Pokémon."
+  },
+  {
+    "id": "SVI-48",
+    "set": "SVI",
+    "number": "48",
+    "name": "Alomomola - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Surf",
+        "damage": "30",
+        "text": "",
+        "cost": [
+          "Water",
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Aqua Slash",
+        "damage": "120",
+        "text": "During your next turn, this Pokémon can't attack.",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 2,
+    "text": "WC\n        Surf 30\n    \n\n\n\n\n\nWWC\n        Aqua Slash 120\n    \n\n         During your next turn, this Pokémon can't attack."
+  },
+  {
+    "id": "SVI-49",
+    "set": "SVI",
+    "number": "49",
+    "name": "Clauncher - Scarlet & Violet",
+    "hp": 70,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Basic",
+    "attacks": [
+      {
+        "name": "Vise Grip",
+        "damage": "10",
+        "text": "",
+        "cost": [
+          "Water"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 1,
+    "text": "W\n        Vise Grip 10"
+  },
+  {
+    "id": "SVI-50",
+    "set": "SVI",
+    "number": "50",
+    "name": "Clawitzer - Scarlet & Violet",
+    "hp": 120,
+    "category": "pokemon",
+    "type": "Water",
+    "stage": "Stage 1",
+    "evolvesFrom": "Clauncher",
+    "attacks": [
+      {
+        "name": "Water Gun",
+        "damage": "50",
+        "text": "",
+        "cost": [
+          "Water",
+          "Colorless"
+        ]
+      },
+      {
+        "name": "Aqua Cannon",
+        "damage": "160",
+        "text": "During your next turn, this Pokémon can't attack.",
+        "cost": [
+          "Water",
+          "Water",
+          "Colorless"
+        ]
+      }
+    ],
+    "weakness": "Lightning",
+    "retreatCost": 2,
+    "text": "WC\n        Water Gun 50\n    \n\n\n\n\n\nWWC\n        Aqua Cannon 160\n    \n\n         During your next turn, this Pokémon can't attack."
+  }
+]
