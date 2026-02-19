@@ -32,6 +32,7 @@ class Game:
         self.first_player: int = 0
         self.briar_active: bool = False
         self.acerola_target: PokemonInPlay | None = None
+        self.pending_genome_hack: bool = False
         # Prize tracking for sparse reward
         self._prev_prizes_taken: list[int] = [0, 0]
     
@@ -48,6 +49,7 @@ class Game:
         self.stadium_owner = -1
         self.briar_active = False
         self.acerola_target = None
+        self.pending_genome_hack = False
         self._prev_prizes_taken = [0, 0]
         
         self.first_player = random.randint(0, 1)
@@ -77,6 +79,7 @@ class Game:
             "is_first_turn_of_game": self.turn_count == 1,
             "turn_count": self.turn_count,
             "stadium": self.stadium,
+            "pending_genome_hack": self.pending_genome_hack,
         }
     
     def get_valid_actions(self) -> list[int]:
@@ -150,9 +153,15 @@ class Game:
                     bi = info.get("bench_idx", 0)
                     if bi < len(player.bench):
                         self._handle_ability(player, opponent, player.bench[bi])
+            elif atype == "genome_hack_copy":
+                self._execute_genome_hack(player, opponent, info["attack_idx"])
             elif atype == "end_turn":
+                if self.pending_genome_hack:
+                    # 相手に技がない→Genome Hack不発
+                    self.pending_genome_hack = False
                 self._end_turn()
         except Exception:
+            self.pending_genome_hack = False
             self._end_turn()
         
         if not self.done:
@@ -609,52 +618,6 @@ class Game:
                         opponent.active.put_damage_counters(moved)
             break
     
-    def _estimate_effect_damage(self, player: Player, opponent: Player, eid: str, base_damage: int) -> int:
-        """副作用なしで技のダメージを推定する（Genome Hackingの技選択用）"""
-        if eid == "burning_darkness":
-            return 180 + 30 * opponent.prizes_taken
-        elif eid == "bellowing_thunder":
-            total = sum(sum(1 for e in p.attached_energy if not e.is_special)
-                        for p in player.get_all_pokemon_in_play())
-            return 70 * total
-        elif eid == "phantom_dive":
-            return 200  # + bench damage counters (side effect)
-        elif eid == "myriad_leaf_shower":
-            total_energy = player.active.total_energy() + (opponent.active.total_energy() if opponent.active else 0)
-            return 30 + 30 * total_energy
-        elif eid == "burst_roar":
-            return 0  # draw support, no damage
-        elif eid == "unified_beatdown":
-            return 30 * len(player.bench)
-        elif eid == "crown_opal":
-            return 180
-        elif eid == "cruel_arrow":
-            return 100  # bench snipe
-        elif eid == "thunderburst_storm":
-            return 0  # bench damage counters only
-        elif eid == "megafire_of_envy":
-            return 140 if player.pokemon_knocked_out_last_turn else 50
-        elif eid == "flare_bringer":
-            return 0  # energy recovery
-        elif eid == "shadow_bind":
-            return 150
-        elif eid == "blustery_wind":
-            return 120
-        elif eid == "eon_blade":
-            return 200
-        elif eid == "rapid_fire_combo":
-            return 200  # expected ~300 with coin flips but 200 guaranteed
-        elif eid == "assault_landing":
-            return 70 if self.stadium else 0
-        elif eid == "triple_stab":
-            return 15  # expected value: 1.5 * 10
-        elif eid == "call_for_family":
-            return 0
-        elif eid == "blazing_destruction":
-            return 0  # energy discard effect
-        else:
-            return base_damage
-
     def _resolve_effect(self, player: Player, opponent: Player, eid: str, base_damage: int) -> int:
         """技の効果を解決してダメージ値を返す。副作用（ベンチダメカン等）もここで処理。"""
         damage = base_damage
@@ -746,21 +709,11 @@ class Game:
             while rng.random() < 0.5:
                 damage += 50
         elif eid == "genome_hacking":
-            # Mew ex: Copy one of the opponent's Active Pokémon's attacks
-            # Evaluate ALL attacks by estimated effective damage, then execute the best
+            # Mew ex: プレイヤーが相手の技を1つ選ぶ（サブアクション）
             if opponent.active and opponent.active.card.attacks:
-                candidates = [a for a in opponent.active.card.attacks
-                              if a.effect_id != "genome_hacking"]
-                if not candidates:
-                    candidates = opponent.active.card.attacks
-                best_atk = max(candidates,
-                               key=lambda a: self._estimate_effect_damage(
-                                   player, opponent, a.effect_id, a.damage))
-                copied_eid = best_atk.effect_id
-                if copied_eid and copied_eid != "genome_hacking":
-                    damage = self._resolve_effect(player, opponent, copied_eid, best_atk.damage)
-                else:
-                    damage = best_atk.damage
+                self.pending_genome_hack = True
+                # ダメージ適用は _execute_genome_hack で行う（stepに戻る）
+                return 0
             else:
                 damage = 0
         elif eid == "assault_landing":
@@ -825,6 +778,51 @@ class Game:
         
         self.briar_active = False
     
+    def _execute_genome_hack(self, player: Player, opponent: Player, attack_idx: int):
+        """Genome Hacking: プレイヤーが選んだ相手の技をコピーして実行"""
+        self.pending_genome_hack = False
+        
+        if not opponent.active or attack_idx >= len(opponent.active.card.attacks):
+            return
+        
+        copied_attack = opponent.active.card.attacks[attack_idx]
+        copied_eid = copied_attack.effect_id
+        
+        # コピーした技の効果を解決
+        if copied_eid and copied_eid != "genome_hacking":
+            damage = self._resolve_effect(player, opponent, copied_eid, copied_attack.damage)
+        else:
+            damage = copied_attack.damage
+        
+        # Vitality Band
+        if player.active and player.active.tool and player.active.tool.effect_id == "vitality_band":
+            if damage > 0:
+                damage += 10
+        
+        # Apply damage
+        if damage > 0 and opponent.active:
+            if opponent.active.protected_from_ex and player.active.card.is_ex:
+                damage = 0
+            if damage > 0:
+                ko = opponent.active.take_damage(damage, player.active.card.types)
+                if ko:
+                    prize_count = opponent.active.card.prize_value
+                    if self.briar_active and player.active.card.is_tera:
+                        prize_count += 1
+                    self._handle_ko(opponent.active, opponent, player,
+                                    prize_taker=player, prize_count=prize_count)
+        
+        # Check bench KOs
+        for bp in list(opponent.bench):
+            if bp.is_knocked_out:
+                prize_count = bp.card.prize_value
+                idx = opponent.bench.index(bp)
+                opponent.bench.pop(idx)
+                opponent._discard_pokemon(bp)
+                player.take_prize(prize_count)
+        
+        self.briar_active = False
+
     def _handle_ko(self, ko_pokemon: PokemonInPlay, ko_owner: Player,
                    opponent_of_ko: Player, prize_taker: Player | None = None,
                    prize_count: int | None = None, is_self_ko: bool = False):

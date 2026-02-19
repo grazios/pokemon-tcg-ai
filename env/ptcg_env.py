@@ -52,7 +52,7 @@ class PTCGEnv(gym.Env):
     
     POKEMON_FEATURES = 25
     POKEMON_SLOTS = 9  # active + 8 bench
-    GLOBAL_FEATURES = 21
+    GLOBAL_FEATURES = 22
     OBS_SIZE = POKEMON_SLOTS * POKEMON_FEATURES * 2 + GLOBAL_FEATURES  # 471
     
     def __init__(self, deck_id_0: int = 0, deck_id_1: int = 1,
@@ -255,6 +255,7 @@ class PTCGEnv(gym.Env):
         obs[g+18] = (me.max_bench - len(me.bench)) / 5.0  # bench free slots
         obs[g+19] = len(me.bench) / 5.0
         obs[g+20] = len(opp.bench) / 5.0
+        obs[g+21] = 1.0 if self.game.pending_genome_hack else 0.0
         
         return obs
     

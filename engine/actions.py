@@ -47,7 +47,10 @@ RARE_CANDY_BENCH_BASE = 183   # 183-246
 USE_ABILITY_ACTIVE = 247
 USE_ABILITY_BENCH_BASE = 248  # 248-255
 
-NUM_ACTIONS = 256
+# Genome Hacking (Mew ex): choose which of opponent's attacks to copy
+GENOME_HACK_COPY_BASE = 256   # 256-257 (opponent's attack 0 or 1)
+
+NUM_ACTIONS = 258
 
 
 def _hand_idx_valid(hand_idx: int) -> bool:
@@ -61,6 +64,19 @@ def get_valid_actions(player, opponent, game_state) -> list[int]:
     is_first_turn = game_state.get("is_first_turn", False)
     turn_count = game_state.get("turn_count", 1)
     stadium_in_play = game_state.get("stadium", None)
+    
+    # Genome Hacking: 相手の技を選ぶサブアクション
+    if game_state.get("pending_genome_hack", False):
+        if opponent.active and opponent.active.card.attacks:
+            for k, atk in enumerate(opponent.active.card.attacks):
+                if k >= 2:
+                    break
+                # genome_hackingのコピーによる無限ループ防止
+                if atk.effect_id != "genome_hacking":
+                    valid.append(GENOME_HACK_COPY_BASE + k)
+        if not valid:
+            valid.append(END_TURN)  # 相手に技がない場合
+        return valid
     
     # 技を使った後はターン終了のみ
     if has_attacked:
@@ -353,4 +369,6 @@ def decode_action(action: int) -> dict:
         return {"type": "use_ability", "target": "active"}
     if USE_ABILITY_BENCH_BASE <= action < USE_ABILITY_BENCH_BASE + 8:
         return {"type": "use_ability", "target": "bench", "bench_idx": action - USE_ABILITY_BENCH_BASE}
+    if GENOME_HACK_COPY_BASE <= action < GENOME_HACK_COPY_BASE + 2:
+        return {"type": "genome_hack_copy", "attack_idx": action - GENOME_HACK_COPY_BASE}
     return {"type": "unknown", "action": action}
