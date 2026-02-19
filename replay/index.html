@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ポケカTCG AI リプレイビューア</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #1a1a2e;
+  --bg2: #16213e;
+  --bg3: #0f3460;
+  --accent: #e94560;
+  --gold: #ffd700;
+  --text: #eee;
+  --text-dim: #aab;
+  --fire: #ff6b35;
+  --water: #4fc3f7;
+  --grass: #66bb6a;
+  --lightning: #ffee58;
+  --psychic: #ab47bc;
+  --fighting: #d4a574;
+  --darkness: #7e57c2;
+  --metal: #b0bec5;
+  --dragon: #ff7043;
+  --colorless: #bdbdbd;
+  --card-border: linear-gradient(135deg, #e94560, #ffd700, #4fc3f7, #66bb6a);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Noto Sans JP', sans-serif;
+  min-height: 100vh;
+}
+h1, h2, .title-font { font-family: 'Orbitron', sans-serif; }
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, var(--bg2), var(--bg3));
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--accent);
+  box-shadow: 0 4px 20px rgba(233,69,96,0.3);
+}
+.header h1 { font-size: 1.2em; background: linear-gradient(90deg, var(--accent), var(--gold)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header .info { font-size: 0.85em; color: var(--text-dim); }
+
+/* Main layout */
+.main { max-width: 900px; margin: 0 auto; padding: 16px; }
+
+/* Card panel style */
+.panel {
+  background: var(--bg2);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+.panel::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 18px;
+  background: var(--card-border);
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* Player info bar */
+.player-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+.player-bar.p0 { background: linear-gradient(90deg, rgba(233,69,96,0.15), transparent); }
+.player-bar.p1 { background: linear-gradient(90deg, rgba(79,195,247,0.15), transparent); }
+.player-label { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 0.9em; }
+.player-bar.p0 .player-label { color: var(--accent); }
+.player-bar.p1 .player-label { color: var(--water); }
+
+/* Prizes */
+.prizes { display: flex; gap: 4px; }
+.prize-card {
+  width: 18px; height: 24px;
+  border-radius: 3px;
+  border: 1px solid #555;
+  transition: all 0.3s;
+}
+.prize-card.taken { background: #333; opacity: 0.3; }
+.prize-card.remaining { background: linear-gradient(135deg, var(--gold), #ff9800); box-shadow: 0 0 6px rgba(255,215,0,0.4); }
+
+/* Hand/deck info */
+.meta-info { display: flex; gap: 12px; font-size: 0.8em; color: var(--text-dim); }
+
+/* Field */
+.field { position: relative; }
+
+/* Pokemon slot */
+.pokemon-slot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin: 6px 0;
+  min-height: 70px;
+  transition: all 0.3s;
+}
+.pokemon-slot.active-slot { background: rgba(255,255,255,0.05); }
+.pokemon-slot.active-slot.attacking { animation: flash 0.3s ease; }
+@keyframes flash { 0%,100%{background:rgba(255,255,255,0.05)} 50%{background:rgba(233,69,96,0.3)} }
+
+.pokemon-name {
+  font-weight: 700;
+  font-size: 1.05em;
+  min-width: 140px;
+}
+.pokemon-name .ex-badge {
+  font-size: 0.65em;
+  background: var(--accent);
+  color: white;
+  padding: 1px 5px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.pokemon-name .tera-badge {
+  font-size: 0.65em;
+  background: linear-gradient(90deg, #ff6b35, #ffd700, #4fc3f7);
+  color: #000;
+  padding: 1px 5px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+/* HP bar */
+.hp-container { flex: 1; max-width: 250px; }
+.hp-bar-outer {
+  height: 16px;
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.hp-bar-inner {
+  height: 100%;
+  border-radius: 8px;
+  transition: width 0.6s ease, background 0.6s ease;
+}
+.hp-text { font-size: 0.75em; color: var(--text-dim); margin-top: 2px; text-align: right; }
+
+/* Energy */
+.energy-list { display: flex; gap: 3px; flex-wrap: wrap; min-width: 80px; }
+.energy-icon {
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Bench */
+.bench-area { display: flex; gap: 6px; flex-wrap: wrap; padding: 4px 8px; }
+.bench-pokemon {
+  background: rgba(255,255,255,0.04);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.8em;
+  border: 1px solid rgba(255,255,255,0.08);
+  min-width: 100px;
+}
+.bench-pokemon .mini-hp {
+  height: 6px;
+  background: #333;
+  border-radius: 3px;
+  margin-top: 3px;
+  overflow: hidden;
+}
+.bench-pokemon .mini-hp-inner {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+.bench-pokemon .bench-energy { font-size: 0.75em; margin-top: 2px; }
+
+/* Divider */
+.field-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), var(--gold), var(--water), transparent);
+  margin: 8px 0;
+}
+
+/* Turn indicator */
+.turn-indicator {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85em;
+  color: var(--gold);
+  padding: 4px;
+}
+
+/* Log */
+.log-panel {
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 0.82em;
+  line-height: 1.6;
+  padding: 10px 14px;
+}
+.log-panel::-webkit-scrollbar { width: 6px; }
+.log-panel::-webkit-scrollbar-track { background: transparent; }
+.log-panel::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+.log-entry { padding: 2px 0; border-bottom: 1px solid rgba(255,255,255,0.03); }
+.log-entry .step-num { color: var(--text-dim); font-size: 0.85em; margin-right: 6px; }
+.log-entry .player-tag { font-weight: 700; margin-right: 4px; }
+.log-entry .player-tag.p0 { color: var(--accent); }
+.log-entry .player-tag.p1 { color: var(--water); }
+.log-entry.type-attack { color: #ff8a80; }
+.log-entry.type-evolve_active, .log-entry.type-evolve_bench,
+.log-entry.type-rare_candy_active, .log-entry.type-rare_candy_bench { color: #a5d6a7; }
+.log-entry.type-play_card { color: #90caf9; }
+.log-entry.type-end_turn { color: #666; font-style: italic; }
+.log-entry.type-use_ability { color: #ce93d8; }
+.log-entry.highlight { background: rgba(255,215,0,0.1); }
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8em;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+.btn:hover { transform: translateY(-2px); box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+.btn:active { transform: translateY(0); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; }
+.btn-back { background: #555; }
+.btn-step { background: var(--accent); }
+.btn-turn { background: var(--bg3); }
+.btn-end { background: #7e57c2; }
+.btn-new { background: linear-gradient(135deg, var(--fire), var(--gold)); color: #000; }
+
+/* Victory overlay */
+.victory-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.victory-overlay.show { display: flex; }
+.victory-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  background: linear-gradient(90deg, var(--gold), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 40px rgba(255,215,0,0.3);
+  margin-bottom: 20px;
+}
+.victory-sub { color: var(--text-dim); font-size: 1.1em; margin-bottom: 30px; }
+
+/* Dialog */
+.dialog-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 200;
+  justify-content: center;
+  align-items: center;
+}
+.dialog-overlay.show { display: flex; }
+.dialog {
+  background: var(--bg2);
+  border-radius: 20px;
+  padding: 30px;
+  min-width: 340px;
+  max-width: 90vw;
+  position: relative;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 40px rgba(233,69,96,0.3);
+}
+.dialog h2 { font-size: 1.2em; margin-bottom: 20px; color: var(--gold); text-align: center; }
+.dialog label { display: block; margin-bottom: 5px; font-size: 0.85em; color: var(--text-dim); }
+.dialog select, .dialog input {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid #444;
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+.dialog .btn-row { display: flex; gap: 10px; justify-content: center; margin-top: 10px; }
+
+/* Empty state */
+.empty-field { text-align: center; padding: 20px; color: var(--text-dim); font-style: italic; }
+
+/* Stadium */
+.stadium-info {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 4px 10px;
+  background: rgba(255,215,0,0.1);
+  border-radius: 6px;
+  color: var(--gold);
+  margin: 4px 0;
+}
+
+/* Loading */
+.loading { text-align: center; padding: 40px; color: var(--text-dim); }
+.loading .spinner {
+  display: inline-block;
+  width: 30px; height: 30px;
+  border: 3px solid #444;
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 10px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .pokemon-slot { flex-wrap: wrap; gap: 6px; }
+  .hp-container { max-width: 100%; }
+  .header h1 { font-size: 1em; }
+  .btn { padding: 8px 12px; font-size: 0.7em; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>⚡ ポケカTCG AI ⚡</h1>
+  <div class="info" id="headerInfo">リプレイビューア</div>
+</div>
+
+<div class="main">
+  <!-- Field Panel -->
+  <div class="panel" id="fieldPanel">
+    <div class="loading" id="loadingMsg">
+      <div class="spinner"></div><br>
+      対戦を開始してください
+    </div>
+    <div id="fieldContent" style="display:none">
+      <!-- P1 (opponent) -->
+      <div class="player-bar p1">
+        <span class="player-label">P1 <span id="p1deck"></span></span>
+        <div class="meta-info">
+          <span>🃏 手札: <span id="p1hand">0</span></span>
+          <span>📦 山札: <span id="p1deck-count">0</span></span>
+        </div>
+        <div class="prizes" id="p1prizes"></div>
+      </div>
+      
+      <!-- P1 Bench -->
+      <div class="bench-area" id="p1bench"></div>
+      
+      <!-- P1 Active -->
+      <div id="p1active"></div>
+      
+      <!-- Divider + Turn -->
+      <hr class="field-divider">
+      <div class="turn-indicator">
+        <span id="turnLabel">TURN 1</span>
+        <span id="stadiumInfo"></span>
+      </div>
+      <hr class="field-divider">
+      
+      <!-- P0 Active -->
+      <div id="p0active"></div>
+      
+      <!-- P0 Bench -->
+      <div class="bench-area" id="p0bench"></div>
+      
+      <!-- P0 Info -->
+      <div class="player-bar p0">
+        <span class="player-label">P0 <span id="p0deck"></span></span>
+        <div class="meta-info">
+          <span>🃏 手札: <span id="p0hand">0</span></span>
+          <span>📦 山札: <span id="p0deck-count">0</span></span>
+        </div>
+        <div class="prizes" id="p0prizes"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Log Panel -->
+  <div class="panel">
+    <div class="log-panel" id="logPanel">
+      <div style="color:#666; font-style:italic;">アクションログ</div>
+    </div>
+  </div>
+  
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn btn-back" id="btnBack" disabled onclick="stepBack()">◀ 戻る</button>
+    <button class="btn btn-step" id="btnStep" disabled onclick="stepForward()">▶ 1手進む</button>
+    <button class="btn btn-turn" id="btnTurn" disabled onclick="playTurn()">⏩ ターン送り</button>
+    <button class="btn btn-end" id="btnEnd" disabled onclick="playToEnd()">⏭ 最後まで</button>
+    <button class="btn btn-new" onclick="showNewGameDialog()">🔄 新規対戦</button>
+  </div>
+</div>
+
+<!-- Victory Overlay -->
+<div class="victory-overlay" id="victoryOverlay" onclick="this.classList.remove('show')">
+  <div class="victory-text" id="victoryText">WINNER!</div>
+  <div class="victory-sub" id="victorySub"></div>
+  <button class="btn btn-new" onclick="event.stopPropagation(); document.getElementById('victoryOverlay').classList.remove('show'); showNewGameDialog()">🔄 新規対戦</button>
+</div>
+
+<!-- New Game Dialog -->
+<div class="dialog-overlay" id="newGameDialog">
+  <div class="dialog">
+    <h2>⚡ NEW BATTLE ⚡</h2>
+    <label>P0 デッキ</label>
+    <select id="selDeck0"></select>
+    <label>P0 モデル</label>
+    <select id="selModel0"></select>
+    <label>P1 デッキ</label>
+    <select id="selDeck1"></select>
+    <label>P1 モデル</label>
+    <select id="selModel1"></select>
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="hideNewGameDialog()">キャンセル</button>
+      <button class="btn btn-step" onclick="startGame()">対戦開始!</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const API = '';
+let gameId = null;
+let gameState = null;
+let decks = {};
+let models = [];
+let logEntries = [];
+
+// ── Type colors ──
+const TYPE_COLORS = {
+  Fire: '#ff6b35', Water: '#4fc3f7', Grass: '#66bb6a', Lightning: '#ffee58',
+  Psychic: '#ab47bc', Fighting: '#d4a574', Darkness: '#7e57c2', Metal: '#b0bec5',
+  Dragon: '#ff7043', Colorless: '#bdbdbd'
+};
+const TYPE_EMOJI = {
+  Fire: '🔥', Water: '💧', Grass: '🌿', Lightning: '⚡',
+  Psychic: '🔮', Fighting: '👊', Darkness: '🌑', Metal: '⚙️',
+  Dragon: '🐉', Colorless: '⭐'
+};
+
+// ── Init ──
+async function init() {
+  const [dRes, mRes] = await Promise.all([
+    fetch(API + '/api/decks').then(r => r.json()),
+    fetch(API + '/api/models').then(r => r.json()),
+  ]);
+  decks = dRes.decks;
+  models = mRes.models;
+  populateSelects();
+  showNewGameDialog();
+}
+
+function populateSelects() {
+  for (const sel of ['selDeck0', 'selDeck1']) {
+    const el = document.getElementById(sel);
+    el.innerHTML = '';
+    for (const [id, name] of Object.entries(decks)) {
+      el.innerHTML += `<option value="${id}">${name}</option>`;
+    }
+  }
+  document.getElementById('selDeck1').selectedIndex = 1;
+  
+  for (const sel of ['selModel0', 'selModel1']) {
+    const el = document.getElementById(sel);
+    el.innerHTML = '';
+    for (const m of models) {
+      const label = m === 'random' ? 'ランダム' : m;
+      el.innerHTML += `<option value="${m}">${label}</option>`;
+    }
+    // Default to selfplay_final if available
+    const idx = models.indexOf('selfplay_final');
+    if (idx >= 0) el.selectedIndex = idx;
+  }
+}
+
+function showNewGameDialog() { document.getElementById('newGameDialog').classList.add('show'); }
+function hideNewGameDialog() { document.getElementById('newGameDialog').classList.remove('show'); }
+
+async function startGame() {
+  hideNewGameDialog();
+  document.getElementById('victoryOverlay').classList.remove('show');
+  const d0 = document.getElementById('selDeck0').value;
+  const d1 = document.getElementById('selDeck1').value;
+  const m0 = document.getElementById('selModel0').value;
+  const m1 = document.getElementById('selModel1').value;
+  
+  document.getElementById('loadingMsg').innerHTML = '<div class="spinner"></div><br>対戦準備中...';
+  document.getElementById('loadingMsg').style.display = '';
+  document.getElementById('fieldContent').style.display = 'none';
+  
+  const res = await fetch(API + '/api/game/start', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({deck0: parseInt(d0), deck1: parseInt(d1), model0: m0, model1: m1}),
+  });
+  const data = await res.json();
+  gameId = data.id;
+  gameState = data.state;
+  logEntries = [];
+  
+  document.getElementById('headerInfo').textContent = `${decks[d0]} vs ${decks[d1]} | ${m0} vs ${m1}`;
+  document.getElementById('loadingMsg').style.display = 'none';
+  document.getElementById('fieldContent').style.display = '';
+  document.getElementById('p0deck').textContent = `(${decks[d0]})`;
+  document.getElementById('p1deck').textContent = `(${decks[d1]})`;
+  
+  updateUI();
+  setButtons(true);
+}
+
+async function stepForward() {
+  if (!gameId || gameState?.done) return;
+  setButtons(false);
+  const res = await fetch(API + `/api/game/${gameId}/step`, {method: 'POST'});
+  const data = await res.json();
+  gameState = data.state;
+  if (data.action) logEntries.push(data.action);
+  updateUI();
+  if (data.done) showVictory();
+  else setButtons(true);
+}
+
+async function stepBack() {
+  if (!gameId || gameState?.stepIndex <= 0) return;
+  setButtons(false);
+  const res = await fetch(API + `/api/game/${gameId}/step-back`, {method: 'POST'});
+  const data = await res.json();
+  gameState = data.state;
+  if (logEntries.length > 0) logEntries.pop();
+  updateUI();
+  setButtons(true);
+}
+
+async function playTurn() {
+  if (!gameId || gameState?.done) return;
+  setButtons(false);
+  const res = await fetch(API + `/api/game/${gameId}/play-turn`, {method: 'POST'});
+  const data = await res.json();
+  gameState = data.state;
+  if (data.actions) logEntries.push(...data.actions);
+  updateUI();
+  if (data.done) showVictory();
+  else setButtons(true);
+}
+
+async function playToEnd() {
+  if (!gameId || gameState?.done) return;
+  setButtons(false);
+  let safety = 0;
+  while (!gameState.done && safety < 500) {
+    const res = await fetch(API + `/api/game/${gameId}/play-turn`, {method: 'POST'});
+    const data = await res.json();
+    gameState = data.state;
+    if (data.actions) logEntries.push(...data.actions);
+    safety++;
+    if (data.done) break;
+  }
+  updateUI();
+  if (gameState.done) showVictory();
+  else setButtons(true);
+}
+
+function setButtons(enabled) {
+  const done = gameState?.done;
+  document.getElementById('btnStep').disabled = !enabled || done;
+  document.getElementById('btnTurn').disabled = !enabled || done;
+  document.getElementById('btnEnd').disabled = !enabled || done;
+  document.getElementById('btnBack').disabled = !enabled || (gameState?.stepIndex || 0) <= 0;
+}
+
+function showVictory() {
+  if (gameState.winner !== null && gameState.winner !== undefined) {
+    const w = gameState.winner;
+    document.getElementById('victoryText').textContent = `🏆 PLAYER ${w} WINS! 🏆`;
+    const pName = document.getElementById(`p${w}deck`).textContent;
+    document.getElementById('victorySub').textContent = `P${w} ${pName} の勝利！`;
+  } else {
+    document.getElementById('victoryText').textContent = '引き分け';
+    document.getElementById('victorySub').textContent = '';
+  }
+  document.getElementById('victoryOverlay').classList.add('show');
+  setButtons(false);
+  document.getElementById('btnBack').disabled = false;
+}
+
+// ── UI Update ──
+function updateUI() {
+  if (!gameState) return;
+  const s = gameState;
+  
+  // Turn
+  document.getElementById('turnLabel').textContent = `TURN ${s.turnCount} — P${s.currentPlayer}のターン`;
+  
+  // Stadium
+  const si = document.getElementById('stadiumInfo');
+  si.textContent = s.stadium ? `🏟️ ${s.stadium}` : '';
+  si.style.display = s.stadium ? '' : 'none';
+  
+  // Players
+  for (let pi = 0; pi < 2; pi++) {
+    const p = s.players[pi];
+    document.getElementById(`p${pi}hand`).textContent = p.handCount;
+    document.getElementById(`p${pi}deck-count`).textContent = p.deckCount;
+    
+    // Prizes
+    const prizesEl = document.getElementById(`p${pi}prizes`);
+    prizesEl.innerHTML = '';
+    for (let i = 0; i < 6; i++) {
+      const taken = i < p.prizesTaken;
+      prizesEl.innerHTML += `<div class="prize-card ${taken ? 'taken' : 'remaining'}"></div>`;
+    }
+    
+    // Active
+    const activeEl = document.getElementById(`p${pi}active`);
+    activeEl.innerHTML = renderActive(p.active, pi);
+    
+    // Bench
+    const benchEl = document.getElementById(`p${pi}bench`);
+    if (p.bench.length === 0) {
+      benchEl.innerHTML = '<div style="color:#555;font-size:0.8em;padding:4px 8px;">ベンチ: なし</div>';
+    } else {
+      benchEl.innerHTML = p.bench.map(bp => renderBenchPokemon(bp)).join('');
+    }
+  }
+  
+  // Log
+  updateLog();
+}
+
+function renderActive(poke, playerIdx) {
+  if (!poke) return '<div class="empty-field">バトル場: なし</div>';
+  const typeColor = TYPE_COLORS[poke.types?.[0]] || '#888';
+  const hpPct = Math.max(0, (poke.hp / poke.maxHp) * 100);
+  const hpColor = hpPct > 50 ? '#4caf50' : hpPct > 25 ? '#ff9800' : '#f44336';
+  
+  let badges = '';
+  if (poke.isEx) badges += '<span class="ex-badge">ex</span>';
+  if (poke.isTera) badges += '<span class="tera-badge">テラスタル</span>';
+  
+  const energyHtml = (poke.energy || []).map(e => {
+    const col = TYPE_COLORS[e] || '#888';
+    const emoji = TYPE_EMOJI[e] || '⭐';
+    return `<div class="energy-icon" style="background:${col}22;color:${col}">${emoji}</div>`;
+  }).join('');
+  
+  return `
+    <div class="pokemon-slot active-slot" style="border-left:3px solid ${typeColor}">
+      <div class="pokemon-name" style="color:${typeColor}">
+        ${poke.name}${badges}
+        <div style="font-size:0.65em;color:#888">${poke.stage}${poke.tool ? ' | 🔧'+poke.tool : ''}</div>
+      </div>
+      <div class="hp-container">
+        <div class="hp-bar-outer">
+          <div class="hp-bar-inner" style="width:${hpPct}%;background:${hpColor}"></div>
+        </div>
+        <div class="hp-text">${poke.hp}/${poke.maxHp} HP</div>
+      </div>
+      <div class="energy-list">${energyHtml}</div>
+    </div>`;
+}
+
+function renderBenchPokemon(bp) {
+  if (!bp) return '';
+  const typeColor = TYPE_COLORS[bp.types?.[0]] || '#888';
+  const hpPct = Math.max(0, (bp.hp / bp.maxHp) * 100);
+  const hpColor = hpPct > 50 ? '#4caf50' : hpPct > 25 ? '#ff9800' : '#f44336';
+  const energyStr = (bp.energy || []).map(e => TYPE_EMOJI[e] || '⭐').join('');
+  
+  let badges = '';
+  if (bp.isEx) badges += ' <span style="color:var(--accent);font-size:0.75em">ex</span>';
+  
+  return `
+    <div class="bench-pokemon" style="border-top:2px solid ${typeColor}">
+      <div style="font-weight:700;color:${typeColor}">${bp.name}${badges}</div>
+      <div class="mini-hp"><div class="mini-hp-inner" style="width:${hpPct}%;background:${hpColor}"></div></div>
+      <div style="font-size:0.7em;color:#888">${bp.hp}/${bp.maxHp}</div>
+      <div class="bench-energy">${energyStr}</div>
+    </div>`;
+}
+
+function updateLog() {
+  const el = document.getElementById('logPanel');
+  if (logEntries.length === 0) {
+    el.innerHTML = '<div style="color:#666;font-style:italic;">アクションログ</div>';
+    return;
+  }
+  
+  const currentStep = gameState?.stepIndex || 0;
+  el.innerHTML = logEntries.map((e, i) => {
+    const isLast = i === logEntries.length - 1;
+    return `<div class="log-entry type-${e.type} ${isLast ? 'highlight' : ''}">
+      <span class="step-num">#${e.step}</span>
+      <span class="player-tag p${e.player}">P${e.player}</span>
+      <span>T${e.turn}: ${e.description}</span>
+    </div>`;
+  }).join('');
+  
+  el.scrollTop = el.scrollHeight;
+}
+
+// Start
+init();
+</script>
+</body>
+</html>

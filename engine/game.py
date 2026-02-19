@@ -154,6 +154,7 @@ class Game:
             
             elif atype == "end_turn":
                 self._end_turn()
+                reward += getattr(self, '_end_turn_penalty', 0.0)
         except Exception:
             # Fallback: end turn on error
             self._end_turn()
@@ -879,8 +880,12 @@ class Game:
                 damage = 0
             
             if damage > 0:
+                # Reward for dealing damage (encourages attacking)
+                reward += 0.05
                 ko = opponent.active.take_damage(damage, player.active.card.types)
                 if ko:
+                    # Bonus for KO itself
+                    reward += 0.15
                     prize_count = opponent.active.card.prize_value
                     if self.briar_active and player.active.card.is_tera:
                         prize_count += 1
@@ -895,7 +900,7 @@ class Game:
                 opponent.bench.pop(idx)
                 opponent._discard_pokemon(bp)
                 player.take_prize(prize_count)
-                reward += 0.1
+                reward += 0.3 * prize_count
         
         self.briar_active = False
         return reward
@@ -926,7 +931,7 @@ class Game:
         
         if not is_self_ko:
             taken = prize_taker.take_prize(prize_count)
-            reward = 0.1 * taken
+            reward = 0.3 * taken
             
             if prize_taker.prizes_taken >= self.PRIZE_TARGET or not prize_taker.prizes:
                 self.done = True
@@ -949,6 +954,13 @@ class Game:
     
     def _end_turn(self):
         player = self.get_current_player()
+        
+        # Penalty: active pokemon has 0 energy at end of turn (encourages energy focus)
+        if player.active and player.active.total_energy() == 0:
+            self._end_turn_penalty = -0.01
+        else:
+            self._end_turn_penalty = 0.0
+        
         player.end_turn()
         self.has_attacked = False
         self.briar_active = False
