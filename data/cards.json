@@ -1,0 +1,113 @@
+{
+  "pokemon": [
+    {
+      "id": "pansear",
+      "name": "Pansear",
+      "hp": 60,
+      "type": "Fire",
+      "weakness": "Water",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Combustion", "cost": {"Fire": 1}, "damage": 20}
+      ]
+    },
+    {
+      "id": "charcadet",
+      "name": "Charcadet",
+      "hp": 70,
+      "type": "Fire",
+      "weakness": "Water",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Will-O-Wisp", "cost": {"Fire": 1}, "damage": 20}
+      ]
+    },
+    {
+      "id": "paldean_tauros_fire",
+      "name": "Paldean Tauros",
+      "hp": 130,
+      "type": "Fire",
+      "weakness": "Water",
+      "retreat_cost": 2,
+      "attacks": [
+        {"name": "Rear Kick", "cost": {"Fire": 1}, "damage": 30},
+        {"name": "Spirited Tackle", "cost": {"Fire": 1, "Colorless": 2}, "damage": 90}
+      ]
+    },
+    {
+      "id": "shellos",
+      "name": "Shellos",
+      "hp": 70,
+      "type": "Water",
+      "weakness": "Lightning",
+      "retreat_cost": 2,
+      "attacks": [
+        {"name": "Sprinkle Water", "cost": {"Colorless": 2}, "damage": 30}
+      ]
+    },
+    {
+      "id": "mantine",
+      "name": "Mantine",
+      "hp": 110,
+      "type": "Water",
+      "weakness": "Lightning",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Wave Splash", "cost": {"Water": 1}, "damage": 30}
+      ]
+    },
+    {
+      "id": "magnemite",
+      "name": "Magnemite",
+      "hp": 60,
+      "type": "Lightning",
+      "weakness": "Fighting",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Lightning Ball", "cost": {"Lightning": 1}, "damage": 20}
+      ]
+    },
+    {
+      "id": "blitzle",
+      "name": "Blitzle",
+      "hp": 70,
+      "type": "Lightning",
+      "weakness": "Fighting",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Static Shock", "cost": {"Lightning": 1, "Colorless": 1}, "damage": 20}
+      ]
+    },
+    {
+      "id": "marill",
+      "name": "Marill",
+      "hp": 60,
+      "type": "Psychic",
+      "weakness": "Metal",
+      "retreat_cost": 1,
+      "attacks": [
+        {"name": "Rolling Tackle", "cost": {"Psychic": 1}, "damage": 20}
+      ]
+    }
+  ],
+  "energy_types": ["Fire", "Water", "Lightning", "Psychic"],
+  "deck_template": {
+    "description": "ミニデッキ: ポケモン8枚 + エネルギー12枚 = 20枚",
+    "pokemon_counts": {
+      "pansear": 2,
+      "charcadet": 2,
+      "paldean_tauros_fire": 1,
+      "shellos": 2,
+      "mantine": 1,
+      "magnemite": 2,
+      "blitzle": 2,
+      "marill": 2
+    },
+    "energy_counts": {
+      "Fire": 3,
+      "Water": 3,
+      "Lightning": 3,
+      "Psychic": 3
+    }
+  }
+}
