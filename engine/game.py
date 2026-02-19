@@ -65,6 +65,31 @@ class Game:
         
         self.turn_count = 1
         self.players[self.current_player].start_turn()
+        self._update_passive_abilities()
+        
+        # Transformative Start (Ditto): 先攻1ターン目バトル場にいたらたねに変身
+        p = self.get_current_player()
+        if p.active:
+            for ab in p.active.card.abilities:
+                if ab.effect_id == "transformative_start":
+                    indices = p.find_in_deck(
+                        lambda c: isinstance(c, PokemonCard) and c.is_basic
+                        and c.name != "Ditto"
+                    )
+                    if indices:
+                        new_card = p.take_from_deck(indices[0])
+                        if new_card and isinstance(new_card, PokemonCard):
+                            old_cards = p.active.get_all_cards()
+                            for oc in old_cards:
+                                p.discard.append(oc)
+                            for e in p.active.attached_energy:
+                                p.discard.append(e)
+                            if p.active.tool:
+                                p.discard.append(p.active.tool)
+                            p.active = PokemonInPlay(new_card, new_card.hp)
+                            p.active.played_this_turn = True
+                            p.shuffle_deck()
+                    break
     
     def get_current_player(self) -> Player:
         return self.players[self.current_player]
@@ -192,6 +217,16 @@ class Game:
         
         if isinstance(card, PokemonCard) and card.is_basic:
             player.place_bench(hand_idx)
+            # Flying Entry (Hawlucha): ベンチに出したときに相手ベンチ2体にダメカン1個
+            placed = player.bench[-1] if player.bench else None
+            if placed:
+                for ab in placed.card.abilities:
+                    if ab.effect_id == "flying_entry":
+                        opponent = self.get_opponent()
+                        targets = list(opponent.bench)[:2]
+                        for t in targets:
+                            t.put_damage_counters(1)
+                        break
             return
         
         if isinstance(card, TrainerCard):
@@ -482,6 +517,31 @@ class Game:
         for p in player.get_all_pokemon_in_play():
             if p.tool is None:
                 p.tool = card
+                # TM: Evolution — 装備時にベンチ2体まで進化（簡略化）
+                if card.effect_id == "tm_evolution_tool":
+                    evolved = 0
+                    for bp in player.bench:
+                        if evolved >= 2:
+                            break
+                        if bp.evolved_this_turn or bp.played_this_turn:
+                            continue
+                        # デッキから進化先を探す
+                        base_name = bp.card.name
+                        indices = player.find_in_deck(
+                            lambda c, bn=base_name: isinstance(c, PokemonCard)
+                            and c.evolves_from == bn
+                        )
+                        if indices:
+                            evo_card = player.take_from_deck(indices[0])
+                            if evo_card and isinstance(evo_card, PokemonCard):
+                                player.evolve(bp, evo_card, -1)
+                                self._trigger_evolution_ability(player, bp)
+                                evolved += 1
+                    if evolved > 0:
+                        player.shuffle_deck()
+                    # ターン終了時にトラッシュ（簡略化: 即トラッシュ）
+                    p.tool = None
+                    player.discard.append(card)
                 return
         player.discard.append(card)
     
@@ -547,10 +607,31 @@ class Game:
                     player.draw(1)
             break
     
+    def _is_ability_blocked(self, player: Player, opponent: Player,
+                           pokemon: PokemonInPlay, ability_eid: str) -> bool:
+        """いたずらロック・しめりけ等でブロックされるかチェック"""
+        # Mischievous Lock: バトル場のKlefkiがいるとき、たねの特性無効
+        for p_check in [player, opponent]:
+            if p_check.active and p_check.active is not pokemon:
+                for ab in p_check.active.card.abilities:
+                    if ab.effect_id == "mischievous_lock" and pokemon.card.is_basic:
+                        return True
+        # Damp: 自爆系特性（cursed_blast等）を無効化
+        if ability_eid == "cursed_blast":
+            for p_check in [player, opponent]:
+                for p in p_check.get_all_pokemon_in_play():
+                    for ab in p.card.abilities:
+                        if ab.effect_id == "damp":
+                            return True
+        return False
+
     def _handle_ability(self, player: Player, opponent: Player,
                         pokemon: PokemonInPlay):
         for ab in pokemon.card.abilities:
             eid = ab.effect_id
+            # ブロックチェック
+            if self._is_ability_blocked(player, opponent, pokemon, eid):
+                break
             if eid == "teal_dance":
                 for i, c in enumerate(player.hand):
                     if isinstance(c, EnergyCard) and c.energy_type == "Grass" and not c.is_special:
@@ -735,6 +816,33 @@ class Game:
                         player.place_bench_from_deck(c)
                         player.shuffle_deck()
             damage = 0
+        elif eid == "blazing_destruction":
+            # Charmander: スタジアムをトラッシュ
+            if self.stadium:
+                if self.stadium_owner == 0:
+                    self.players[0].discard.append(self.stadium)
+                else:
+                    self.players[1].discard.append(self.stadium)
+                self.stadium = None
+                self._update_bench_limits()
+            damage = 0
+        elif eid == "come_and_get_you":
+            # Duskull: トラッシュからDuskullを最大3体ベンチに
+            placed = 0
+            for _ in range(3):
+                if len(player.bench) >= player.max_bench:
+                    break
+                indices = player.find_in_discard(
+                    lambda c: isinstance(c, PokemonCard) and c.name == "Duskull"
+                )
+                if indices:
+                    c = player.take_from_discard(indices[0])
+                    if c and isinstance(c, PokemonCard):
+                        pip = PokemonInPlay(c, c.hp)
+                        pip.played_this_turn = True
+                        player.bench.append(pip)
+                        placed += 1
+            damage = 0
         
         return damage
 
@@ -881,6 +989,18 @@ class Game:
         new_player = self.get_current_player()
         new_player.start_turn()
         
+        # Artazon: ターン開始時にたねポケモン(ex以外)をベンチに
+        if self.stadium and self.stadium.effect_id == "artazon":
+            if len(new_player.bench) < new_player.max_bench:
+                indices = new_player.find_in_deck(
+                    lambda c: isinstance(c, PokemonCard) and c.is_basic and not c.is_ex
+                )
+                if indices:
+                    c = new_player.take_from_deck(indices[0])
+                    if c and isinstance(c, PokemonCard):
+                        new_player.place_bench_from_deck(c)
+                        new_player.shuffle_deck()
+        
         if not new_player.draw(1):
             self.done = True
             self.winner = 1 - self.current_player
@@ -888,6 +1008,19 @@ class Game:
         
         for p in new_player.get_all_pokemon_in_play():
             p.cant_retreat_next = False
+        
+        self._update_passive_abilities()
+    
+    def _update_passive_abilities(self):
+        """パッシブ特性のフラグを更新（ターン開始時・状態変更時）"""
+        for player in self.players:
+            # Skyliner (Latias ex): 自分のたねポケモンのにげるコスト0
+            has_skyliner = any(
+                any(ab.effect_id == "skyliner" for ab in p.card.abilities)
+                for p in player.get_all_pokemon_in_play()
+            )
+            for p in player.get_all_pokemon_in_play():
+                p._skyliner_active = has_skyliner
     
     def _check_win_conditions(self):
         for i, p in enumerate(self.players):

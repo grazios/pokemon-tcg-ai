@@ -221,12 +221,19 @@ class PokemonInPlay:
     def is_knocked_out(self) -> bool:
         return self.current_hp <= 0
     
-    @property 
+    @property
     def effective_retreat_cost(self) -> int:
         cost = self.card.retreat_cost
         # Air Balloon reduces by 2
         if self.tool and self.tool.effect_id == "air_balloon":
             cost = max(0, cost - 2)
+        # Agile (Charmander PFL): no energy → no retreat cost
+        for ab in self.card.abilities:
+            if ab.effect_id == "agile" and len(self.attached_energy) == 0:
+                return 0
+        # Skyliner flag (set by Game at turn start)
+        if getattr(self, '_skyliner_active', False) and self.card.is_basic:
+            return 0
         return cost
     
     def get_top_card(self) -> PokemonCard:
