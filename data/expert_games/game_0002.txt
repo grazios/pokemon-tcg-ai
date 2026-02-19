@@ -1,0 +1,148 @@
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Charmander HP80/80 [エネなし]
+    技1: Live Coal [炎×1] 20ダメ → エネ不足
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Duskull(Basic), Buddy-Buddy Poffin[Item], Charizard ex(Stage 2), Dusclops(Stage 1), Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [0] Duskullをベンチに出す
+  2. [1] Buddy-Buddy Poffinを使う
+  3. [174] ターン終了
+→ 選択: [1]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札5枚 | 山札45枚
+バトル場: Charmander HP80/80 [エネなし]
+    技1: Live Coal [炎×1] 20ダメ → エネ不足
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charmander HP70/70 [エネなし]
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Duskull(Basic), Charizard ex(Stage 2), Dusclops(Stage 1), Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [0] Duskullをベンチに出す
+  2. [174] ターン終了
+→ 選択: [0]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札4枚 | 山札45枚
+バトル場: Charmander HP80/80 [エネなし]
+    技1: Live Coal [炎×1] 20ダメ → エネ不足
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charmander HP70/70 [エネなし]
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Duskull HP60/60 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Charizard ex(Stage 2), Dusclops(Stage 1), Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札5枚 | 山札44枚
+バトル場: Charmander HP80/80 [エネなし]
+    技1: Live Coal [炎×1] 20ダメ → エネ不足
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charmander HP70/70 [エネなし]
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Duskull HP60/60 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札7枚 | 山札46枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Charizard ex(Stage 2), Dusclops(Stage 1), Pidgeot ex(Stage 2), Briar[Supporter], Rare Candy[Item]]
+有効なアクション:
+  1. [183] ふしぎなアメ: CharmanderをCharizard exに進化
+  2. [174] ターン終了
+  3. [38] ベンチのDuskullをDusclopsに進化
+  4. [175] ふしぎなアメ: CharmanderをCharizard exに進化
+→ 選択: [183]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札3枚 | 山札41枚
+バトル場: Charmander HP80/80 [炎×3]
+    技1: Live Coal [炎×1] 20ダメ → 使用可能
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charizard ex HP330/330 [エネなし] (Stage 2) [ex] [テラスタル]
+    特性:Infernal Reign
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Duskull HP60/60 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札7枚 | 山札46枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Dusclops(Stage 1), Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [164] 技「Live Coal」を使う → Hoothootに20+ダメージ
+  2. [166] にげる → Charizard exと入れ替え
+  3. [167] にげる → Dittoと入れ替え
+  4. [168] にげる → Duskullと入れ替え
+  5. [174] ターン終了
+  6. [30] ベンチのDuskullをDusclopsに進化
+→ 選択: [30]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札2枚 | 山札41枚
+バトル場: Charmander HP80/80 [炎×3]
+    技1: Live Coal [炎×1] 20ダメ → 使用可能
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charizard ex HP330/330 [エネなし] (Stage 2) [ex] [テラスタル]
+    特性:Infernal Reign
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Dusclops HP90/90 [エネなし] (Stage 1)
+    特性:Cursed Blast
+
+相手: サイド残り6枚(取得0) | 手札7枚 | 山札46枚
+バトル場: Hoothoot HP70/70 [エネなし]
+
+手札: [Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [164] 技「Live Coal」を使う → Hoothootに20+ダメージ
+  2. [166] にげる → Charizard exと入れ替え
+  3. [167] にげる → Dittoと入れ替え
+  4. [168] にげる → Dusclopsと入れ替え
+  5. [174] ターン終了
+  6. [250] 特性「Cursed Blast」を使う(Dusclops)
+→ 選択: [250]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札2枚 | 山札41枚
+バトル場: Charmander HP80/80 [炎×3]
+    技1: Live Coal [炎×1] 20ダメ → 使用可能
+    特性: Agile (If this Pokémon has no Energy attached, it has no Retreat Co)
+ベンチ:
+  1. Charizard ex HP330/330 [エネなし] (Stage 2) [ex] [テラスタル]
+    特性:Infernal Reign
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+
+相手: サイド残り6枚(取得0) | 手札7枚 | 山札46枚
+バトル場: Hoothoot HP-60/70 [エネなし]
+
+手札: [Pidgeot ex(Stage 2), Briar[Supporter]]
+有効なアクション:
+  1. [164] 技「Live Coal」を使う → Hoothootに20+ダメージ
+  2. [174] ターン終了
+  3. [166] にげる → Charizard exと入れ替え
+  4. [167] にげる → Dittoと入れ替え
+→ 選択: [164]

@@ -1,0 +1,13 @@
+{
+  "game_id": 1,
+  "deck_0": "Charizard ex / Noctowl",
+  "deck_1": "Dragapult ex / Charizard ex",
+  "winner": "P0",
+  "turns": 30,
+  "steps": 113,
+  "p0_prizes": 6,
+  "p1_prizes": 4,
+  "num_samples": 113,
+  "num_decisions": 94,
+  "status": "complete"
+}

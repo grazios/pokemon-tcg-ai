@@ -4,3 +4,6 @@ venv/
 logs/
 __pycache__/
 *.pyc
+data/expert_games/expert_data.jsonl
+data/expert_games/expert_data.npz
+models/imitation_pretrained.pt

@@ -1,0 +1,13 @@
+{
+  "game_id": 0,
+  "deck_0": "Charizard ex / Noctowl",
+  "deck_1": "Raging Bolt ex / Ogerpon",
+  "winner": "P0",
+  "turns": 41,
+  "steps": 105,
+  "p0_prizes": 6,
+  "p1_prizes": 4,
+  "num_samples": 105,
+  "num_decisions": 85,
+  "status": "complete"
+}

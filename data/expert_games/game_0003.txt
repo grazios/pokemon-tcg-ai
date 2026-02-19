@@ -1,0 +1,2277 @@
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Nest Ball[Item], Noctowl(Stage 1), Fan Rotom(Basic), Glass Trumpet[Item], Lightning Energy]
+有効なアクション:
+  1. [1] Nest Ballを使う
+  2. [97] Lightning EnergyをFan Rotomに付ける
+  3. [3] Fan Rotomをベンチに出す
+  4. [174] ターン終了
+  5. [247] 特性「Fan Call」を使う(Fan Rotom)
+  6. [92] Fighting EnergyをFan Rotomに付ける
+→ 選択: [247]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札9枚 | 山札44枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Nest Ball[Item], Noctowl(Stage 1), Fan Rotom(Basic), Glass Trumpet[Item], Lightning Energy, Hoothoot(Basic), Ditto(Basic), Hoothoot(Basic)]
+有効なアクション:
+  1. [1] Nest Ballを使う
+  2. [97] Lightning EnergyをFan Rotomに付ける
+  3. [3] Fan Rotomをベンチに出す
+  4. [6] Hoothootをベンチに出す
+  5. [7] Dittoをベンチに出す
+  6. [8] Hoothootをベンチに出す
+  7. [174] ターン終了
+  8. [92] Fighting EnergyをFan Rotomに付ける
+→ 選択: [1]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札8枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Fan Rotom(Basic), Glass Trumpet[Item], Lightning Energy, Hoothoot(Basic), Ditto(Basic), Hoothoot(Basic)]
+有効なアクション:
+  1. [96] Lightning EnergyをFan Rotomに付ける
+  2. [2] Fan Rotomをベンチに出す
+  3. [3] Glass Trumpetを使う
+  4. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  5. [5] Hoothootをベンチに出す
+  6. [6] Dittoをベンチに出す
+  7. [7] Hoothootをベンチに出す
+  8. [132] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  9. [174] ターン終了
+  10. [92] Fighting EnergyをFan Rotomに付ける
+→ 選択: [3]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札7枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Fan Rotom(Basic), Lightning Energy, Hoothoot(Basic), Ditto(Basic), Hoothoot(Basic)]
+有効なアクション:
+  1. [2] Fan Rotomをベンチに出す
+  2. [4] Hoothootをベンチに出す
+  3. [5] Dittoをベンチに出す
+  4. [6] Hoothootをベンチに出す
+  5. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  6. [174] ターン終了
+  7. [124] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  8. [92] Fighting EnergyをFan Rotomに付ける
+  9. [95] Lightning EnergyをFan Rotomに付ける
+→ 選択: [2]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札6枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Lightning Energy, Hoothoot(Basic), Ditto(Basic), Hoothoot(Basic)]
+有効なアクション:
+  1. [3] Hoothootをベンチに出す
+  2. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  3. [4] Dittoをベンチに出す
+  4. [5] Hoothootをベンチに出す
+  5. [101] Fighting EnergyをFan Rotomに付ける
+  6. [174] ターン終了
+  7. [116] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  8. [117] Lightning EnergyをFan Rotomに付ける
+  9. [92] Fighting EnergyをFan Rotomに付ける
+  10. [94] Lightning EnergyをFan Rotomに付ける
+→ 選択: [3]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札5枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Lightning Energy, Ditto(Basic), Hoothoot(Basic)]
+有効なアクション:
+  1. [3] Dittoをベンチに出す
+  2. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  3. [4] Hoothootをベンチに出す
+  4. [101] Fighting EnergyをFan Rotomに付ける
+  5. [102] Fighting EnergyをHoothootに付ける
+  6. [174] ターン終了
+  7. [116] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  8. [117] Lightning EnergyをFan Rotomに付ける
+  9. [118] Lightning EnergyをHoothootに付ける
+  10. [92] Fighting EnergyをFan Rotomに付ける
+  11. [94] Lightning EnergyをFan Rotomに付ける
+→ 選択: [3]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札4枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Lightning Energy, Hoothoot(Basic)]
+有効なアクション:
+  1. [3] Hoothootをベンチに出す
+  2. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  3. [101] Fighting EnergyをFan Rotomに付ける
+  4. [102] Fighting EnergyをHoothootに付ける
+  5. [103] Fighting EnergyをDittoに付ける
+  6. [174] ターン終了
+  7. [116] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  8. [117] Lightning EnergyをFan Rotomに付ける
+  9. [118] Lightning EnergyをHoothootに付ける
+  10. [119] Lightning EnergyをDittoに付ける
+  11. [92] Fighting EnergyをFan Rotomに付ける
+  12. [94] Lightning EnergyをFan Rotomに付ける
+→ 選択: [3]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札3枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    技1: Assault Landing [無色×1] 70ダメ → エネ不足 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Hoothoot HP70/70 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Fighting Energy, Noctowl(Stage 1), Lightning Energy]
+有効なアクション:
+  1. [100] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  2. [101] Fighting EnergyをFan Rotomに付ける
+  3. [102] Fighting EnergyをHoothootに付ける
+  4. [103] Fighting EnergyをDittoに付ける
+  5. [104] Fighting EnergyをHoothootに付ける
+  6. [174] ターン終了
+  7. [116] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  8. [117] Lightning EnergyをFan Rotomに付ける
+  9. [118] Lightning EnergyをHoothootに付ける
+  10. [119] Lightning EnergyをDittoに付ける
+  11. [120] Lightning EnergyをHoothootに付ける
+  12. [92] Fighting EnergyをFan Rotomに付ける
+  13. [94] Lightning EnergyをFan Rotomに付ける
+→ 選択: [92]
+
+=== あなたのターン (T1) ===
+あなた: サイド残り6枚(取得0) | 手札2枚 | 山札43枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Hoothoot HP70/70 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札6枚 | 山札47枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Noctowl(Stage 1), Lightning Energy]
+状態: エネルギー付与済み
+有効なアクション:
+  1. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  2. [167] にげる → Fan Rotomと入れ替え
+  3. [168] にげる → Hoothootと入れ替え
+  4. [169] にげる → Dittoと入れ替え
+  5. [170] にげる → Hoothootと入れ替え
+  6. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札3枚 | 山札42枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Hoothoot HP70/70 [エネなし]
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Noctowl(Stage 1), Lightning Energy, Nest Ball[Item]]
+有効なアクション:
+  1. [32] ベンチのHoothootをNoctowlに進化
+  2. [2] Nest Ballを使う
+  3. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  4. [167] にげる → Fan Rotomと入れ替え
+  5. [168] にげる → Hoothootと入れ替え
+  6. [169] にげる → Dittoと入れ替え
+  7. [170] にげる → Hoothootと入れ替え
+  8. [108] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  9. [109] Lightning EnergyをFan Rotomに付ける
+  10. [110] Lightning EnergyをHoothootに付ける
+  11. [111] Lightning EnergyをDittoに付ける
+  12. [112] Lightning EnergyをHoothootに付ける
+  13. [174] ターン終了
+  14. [93] Lightning EnergyをFan Rotomに付ける
+  15. [30] ベンチのHoothootをNoctowlに進化
+→ 選択: [32]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札4枚 | 山札40枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Lightning Energy, Nest Ball[Item], Area Zero Underdepths[Stadium], Boss's Orders[Supporter]]
+有効なアクション:
+  1. [1] Nest Ballを使う
+  2. [2] Area Zero Underdepthsを使う
+  3. [3] Boss's Ordersを使う
+  4. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  5. [101] Lightning EnergyをFan Rotomに付ける
+  6. [102] Lightning EnergyをHoothootに付ける
+  7. [103] Lightning EnergyをDittoに付ける
+  8. [104] Lightning EnergyをNoctowlに付ける
+  9. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  10. [167] にげる → Fan Rotomと入れ替え
+  11. [168] にげる → Hoothootと入れ替え
+  12. [169] にげる → Dittoと入れ替え
+  13. [170] にげる → Noctowlと入れ替え
+  14. [174] ターン終了
+  15. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [3]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札3枚 | 山札40枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy, Nest Ball[Item], Area Zero Underdepths[Stadium]]
+状態: サポーター使用済み
+有効なアクション:
+  1. [1] Nest Ballを使う
+  2. [2] Area Zero Underdepthsを使う
+  3. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  4. [101] Lightning EnergyをFan Rotomに付ける
+  5. [102] Lightning EnergyをHoothootに付ける
+  6. [103] Lightning EnergyをDittoに付ける
+  7. [104] Lightning EnergyをNoctowlに付ける
+  8. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  9. [167] にげる → Fan Rotomと入れ替え
+  10. [168] にげる → Hoothootと入れ替え
+  11. [169] にげる → Dittoと入れ替え
+  12. [170] にげる → Noctowlと入れ替え
+  13. [174] ターン終了
+  14. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [2]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札2枚 | 山札40枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy, Nest Ball[Item]]
+状態: サポーター使用済み
+有効なアクション:
+  1. [1] Nest Ballを使う
+  2. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  3. [101] Lightning EnergyをFan Rotomに付ける
+  4. [102] Lightning EnergyをHoothootに付ける
+  5. [103] Lightning EnergyをDittoに付ける
+  6. [104] Lightning EnergyをNoctowlに付ける
+  7. [164] 技「Assault Landing」を使う → Fan Rotomに70+ダメージ
+  8. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  9. [167] にげる → Fan Rotomと入れ替え
+  10. [168] にげる → Hoothootと入れ替え
+  11. [169] にげる → Dittoと入れ替え
+  12. [170] にげる → Noctowlと入れ替え
+  13. [174] ターン終了
+  14. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [1]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札1枚 | 山札39枚
+バトル場: Fan Rotom HP70/70 [闘×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy]
+状態: サポーター使用済み
+有効なアクション:
+  1. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  2. [101] Lightning EnergyをFan Rotomに付ける
+  3. [102] Lightning EnergyをHoothootに付ける
+  4. [103] Lightning EnergyをDittoに付ける
+  5. [104] Lightning EnergyをNoctowlに付ける
+  6. [105] Lightning EnergyをHoothootに付ける
+  7. [164] 技「Assault Landing」を使う → Fan Rotomに70+ダメージ
+  8. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  9. [167] にげる → Fan Rotomと入れ替え
+  10. [168] にげる → Hoothootと入れ替え
+  11. [169] にげる → Dittoと入れ替え
+  12. [170] にげる → Noctowlと入れ替え
+  13. [171] にげる → Hoothootと入れ替え
+  14. [174] ターン終了
+  15. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [92]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り6枚(取得0) | 手札0枚 | 山札39枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: []
+状態: サポーター使用済み, エネルギー付与済み
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fan Rotomに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Hoothootと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T3) ===
+あなた: サイド残り5枚(取得1) | 手札1枚 | 山札39枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札45枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy]
+状態: サポーター使用済み, エネルギー付与済み, 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T5) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札38枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Hoothoot HP70/70 [エネなし]
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札44枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy, Noctowl(Stage 1)]
+有効なアクション:
+  1. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  2. [101] Lightning EnergyをFan Rotomに付ける
+  3. [38] ベンチのHoothootをNoctowlに進化
+  4. [102] Lightning EnergyをHoothootに付ける
+  5. [103] Lightning EnergyをDittoに付ける
+  6. [41] ベンチのHoothootをNoctowlに進化
+  7. [104] Lightning EnergyをNoctowlに付ける
+  8. [105] Lightning EnergyをHoothootに付ける
+  9. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  10. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  11. [167] にげる → Fan Rotomと入れ替え
+  12. [168] にげる → Hoothootと入れ替え
+  13. [169] にげる → Dittoと入れ替え
+  14. [170] にげる → Noctowlと入れ替え
+  15. [171] にげる → Hoothootと入れ替え
+  16. [174] ターン終了
+  17. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [38]
+
+=== あなたのターン (T5) ===
+あなた: サイド残り5枚(取得1) | 手札3枚 | 山札36枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札44枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy, Energy Switch[Item], Professor Sada's Vitality[Supporter]]
+有効なアクション:
+  1. [1] Energy Switchを使う
+  2. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  3. [101] Lightning EnergyをFan Rotomに付ける
+  4. [102] Lightning EnergyをNoctowlに付ける
+  5. [103] Lightning EnergyをDittoに付ける
+  6. [104] Lightning EnergyをNoctowlに付ける
+  7. [105] Lightning EnergyをHoothootに付ける
+  8. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  9. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  10. [167] にげる → Fan Rotomと入れ替え
+  11. [168] にげる → Noctowlと入れ替え
+  12. [169] にげる → Dittoと入れ替え
+  13. [170] にげる → Noctowlと入れ替え
+  14. [171] にげる → Hoothootと入れ替え
+  15. [174] ターン終了
+  16. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [1]
+
+=== あなたのターン (T5) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札36枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札44枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Lightning Energy, Professor Sada's Vitality[Supporter]]
+有効なアクション:
+  1. [100] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  2. [101] Lightning EnergyをFan Rotomに付ける
+  3. [102] Lightning EnergyをNoctowlに付ける
+  4. [103] Lightning EnergyをDittoに付ける
+  5. [104] Lightning EnergyをNoctowlに付ける
+  6. [105] Lightning EnergyをHoothootに付ける
+  7. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  8. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  9. [167] にげる → Fan Rotomと入れ替え
+  10. [168] にげる → Noctowlと入れ替え
+  11. [169] にげる → Dittoと入れ替え
+  12. [170] にげる → Noctowlと入れ替え
+  13. [171] にげる → Hoothootと入れ替え
+  14. [174] ターン終了
+  15. [92] Lightning EnergyをFan Rotomに付ける
+→ 選択: [92]
+
+=== あなたのターン (T5) ===
+あなた: サイド残り5枚(取得1) | 手札1枚 | 山札36枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札44枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Professor Sada's Vitality[Supporter]]
+状態: エネルギー付与済み
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T5) ===
+あなた: サイド残り5枚(取得1) | 手札1枚 | 山札36枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札44枚
+バトル場: Teal Mask Ogerpon ex HP140/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+
+手札: [Professor Sada's Vitality[Supporter]]
+状態: エネルギー付与済み, 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T7) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札35枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札43枚
+バトル場: Teal Mask Ogerpon ex HP140/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Mega Kangaskhan ex HP300/300 [エネなし] [ex]
+    特性:Run Errand
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Professor Sada's Vitality[Supporter], Grass Energy]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [108] Grass EnergyをTeal Mask Ogerpon exに付ける
+  9. [109] Grass EnergyをFan Rotomに付ける
+  10. [110] Grass EnergyをNoctowlに付ける
+  11. [111] Grass EnergyをDittoに付ける
+  12. [112] Grass EnergyをNoctowlに付ける
+  13. [113] Grass EnergyをHoothootに付ける
+  14. [174] ターン終了
+  15. [248] 特性「Teal Dance」を使う(Teal Mask Ogerpon ex)
+  16. [93] Grass EnergyをFan Rotomに付ける
+→ 選択: [248]
+
+=== あなたのターン (T7) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札34枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札43枚
+バトル場: Teal Mask Ogerpon ex HP140/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Mega Kangaskhan ex HP300/300 [エネなし] [ex]
+    特性:Run Errand
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter]]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T7) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札34枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札43枚
+バトル場: Teal Mask Ogerpon ex HP70/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Mega Kangaskhan ex HP300/300 [エネなし] [ex]
+    特性:Run Errand
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter]]
+状態: 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T9) ===
+あなた: サイド残り5枚(取得1) | 手札3枚 | 山札33枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札42枚
+バトル場: Teal Mask Ogerpon ex HP70/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Mega Kangaskhan ex HP300/300 [雷×1] [ex]
+    特性:Run Errand
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Psyduck(Basic)]
+有効なアクション:
+  1. [2] Psyduckをベンチに出す
+  2. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  3. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  4. [167] にげる → Fan Rotomと入れ替え
+  5. [168] にげる → Noctowlと入れ替え
+  6. [169] にげる → Dittoと入れ替え
+  7. [170] にげる → Noctowlと入れ替え
+  8. [171] にげる → Hoothootと入れ替え
+  9. [174] ターン終了
+→ 選択: [2]
+
+=== あなたのターン (T9) ===
+あなた: サイド残り5枚(取得1) | 手札2枚 | 山札33枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札42枚
+バトル場: Teal Mask Ogerpon ex HP70/210 [エネなし] [ex] [テラスタル]
+    特性:Teal Dance
+ベンチ:
+  1. Mega Kangaskhan ex HP300/300 [雷×1] [ex]
+    特性:Run Errand
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter]]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Teal Mask Ogerpon exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [172] にげる → Psyduckと入れ替え
+  9. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T9) ===
+あなた: サイド残り3枚(取得3) | 手札4枚 | 山札33枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札42枚
+バトル場: Mega Kangaskhan ex HP300/300 [雷×1] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Raging Bolt ex(Basic), Night Stretcher[Item]]
+状態: 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T11) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札32枚
+バトル場: Fan Rotom HP70/70 [闘×1, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札37枚
+バトル場: Mega Kangaskhan ex HP300/300 [雷×2] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Raging Bolt ex(Basic), Night Stretcher[Item], Crispin[Supporter]]
+有効なアクション:
+  1. [2] Raging Bolt exをベンチに出す
+  2. [164] 技「Assault Landing」を使う → Mega Kangaskhan exに70+ダメージ
+  3. [4] Crispinを使う
+  4. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  5. [167] にげる → Fan Rotomと入れ替え
+  6. [168] にげる → Noctowlと入れ替え
+  7. [169] にげる → Dittoと入れ替え
+  8. [170] にげる → Noctowlと入れ替え
+  9. [171] にげる → Hoothootと入れ替え
+  10. [172] にげる → Psyduckと入れ替え
+  11. [174] ターン終了
+→ 選択: [4]
+
+=== あなたのターン (T11) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札30枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×1] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札37枚
+バトル場: Mega Kangaskhan ex HP300/300 [雷×2] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Raging Bolt ex(Basic), Night Stretcher[Item], Grass Energy]
+状態: サポーター使用済み
+有効なアクション:
+  1. [2] Raging Bolt exをベンチに出す
+  2. [132] Grass EnergyをTeal Mask Ogerpon exに付ける
+  3. [133] Grass EnergyをFan Rotomに付ける
+  4. [134] Grass EnergyをNoctowlに付ける
+  5. [135] Grass EnergyをDittoに付ける
+  6. [136] Grass EnergyをNoctowlに付ける
+  7. [137] Grass EnergyをHoothootに付ける
+  8. [138] Grass EnergyをPsyduckに付ける
+  9. [164] 技「Assault Landing」を使う → Mega Kangaskhan exに70+ダメージ
+  10. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  11. [167] にげる → Fan Rotomと入れ替え
+  12. [168] にげる → Noctowlと入れ替え
+  13. [169] にげる → Dittoと入れ替え
+  14. [170] にげる → Noctowlと入れ替え
+  15. [171] にげる → Hoothootと入れ替え
+  16. [172] にげる → Psyduckと入れ替え
+  17. [174] ターン終了
+  18. [96] Grass EnergyをFan Rotomに付ける
+  19. [248] 特性「Teal Dance」を使う(Teal Mask Ogerpon ex)
+→ 選択: [248]
+
+=== あなたのターン (T11) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札29枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札37枚
+バトル場: Mega Kangaskhan ex HP300/300 [雷×2] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Raging Bolt ex(Basic), Night Stretcher[Item], Mega Kangaskhan ex(Basic)]
+状態: サポーター使用済み
+有効なアクション:
+  1. [2] Raging Bolt exをベンチに出す
+  2. [164] 技「Assault Landing」を使う → Mega Kangaskhan exに70+ダメージ
+  3. [4] Mega Kangaskhan exをベンチに出す
+  4. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  5. [167] にげる → Fan Rotomと入れ替え
+  6. [168] にげる → Noctowlと入れ替え
+  7. [169] にげる → Dittoと入れ替え
+  8. [170] にげる → Noctowlと入れ替え
+  9. [171] にげる → Hoothootと入れ替え
+  10. [172] にげる → Psyduckと入れ替え
+  11. [174] ターン終了
+→ 選択: [2]
+
+=== あなたのターン (T11) ===
+あなた: サイド残り3枚(取得3) | 手札4枚 | 山札29枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札37枚
+バトル場: Mega Kangaskhan ex HP300/300 [雷×2] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic)]
+状態: サポーター使用済み
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Mega Kangaskhan exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [172] にげる → Psyduckと入れ替え
+  9. [173] にげる → Raging Bolt exと入れ替え
+  10. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T11) ===
+あなた: サイド残り3枚(取得3) | 手札4枚 | 山札29枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札37枚
+バトル場: Mega Kangaskhan ex HP230/300 [雷×2] [ex]
+    特性:Run Errand
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic)]
+状態: サポーター使用済み, 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T13) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札28枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札36枚
+バトル場: Fezandipiti ex HP210/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [エネなし] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium]]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [172] にげる → Psyduckと入れ替え
+  9. [173] にげる → Raging Bolt exと入れ替え
+  10. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T13) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札28枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札36枚
+バトル場: Fezandipiti ex HP140/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [エネなし] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium]]
+状態: 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T15) ===
+あなた: サイド残り3枚(取得3) | 手札6枚 | 山札27枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札35枚
+バトル場: Fezandipiti ex HP140/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium], Crispin[Supporter]]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  2. [5] Crispinを使う
+  3. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  4. [167] にげる → Fan Rotomと入れ替え
+  5. [168] にげる → Noctowlと入れ替え
+  6. [169] にげる → Dittoと入れ替え
+  7. [170] にげる → Noctowlと入れ替え
+  8. [171] にげる → Hoothootと入れ替え
+  9. [172] にげる → Psyduckと入れ替え
+  10. [173] にげる → Raging Bolt exと入れ替え
+  11. [174] ターン終了
+→ 選択: [5]
+
+=== あなたのターン (T15) ===
+あなた: サイド残り3枚(取得3) | 手札6枚 | 山札25枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×2, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札35枚
+バトル場: Fezandipiti ex HP140/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium], Lightning Energy]
+状態: サポーター使用済み
+有効なアクション:
+  1. [140] Lightning EnergyをTeal Mask Ogerpon exに付ける
+  2. [141] Lightning EnergyをFan Rotomに付ける
+  3. [142] Lightning EnergyをNoctowlに付ける
+  4. [143] Lightning EnergyをDittoに付ける
+  5. [144] Lightning EnergyをNoctowlに付ける
+  6. [145] Lightning EnergyをHoothootに付ける
+  7. [146] Lightning EnergyをPsyduckに付ける
+  8. [147] Lightning EnergyをRaging Bolt exに付ける
+  9. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  10. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  11. [167] にげる → Fan Rotomと入れ替え
+  12. [168] にげる → Noctowlと入れ替え
+  13. [169] にげる → Dittoと入れ替え
+  14. [170] にげる → Noctowlと入れ替え
+  15. [171] にげる → Hoothootと入れ替え
+  16. [172] にげる → Psyduckと入れ替え
+  17. [173] にげる → Raging Bolt exと入れ替え
+  18. [174] ターン終了
+  19. [97] Lightning EnergyをFan Rotomに付ける
+→ 選択: [97]
+
+=== あなたのターン (T15) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札25枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札35枚
+バトル場: Fezandipiti ex HP140/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium]]
+状態: サポーター使用済み, エネルギー付与済み
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [172] にげる → Psyduckと入れ替え
+  9. [173] にげる → Raging Bolt exと入れ替え
+  10. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T15) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札25枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札4枚 | 山札35枚
+バトル場: Fezandipiti ex HP70/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium]]
+状態: サポーター使用済み, エネルギー付与済み, 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T17) ===
+あなた: サイド残り3枚(取得3) | 手札6枚 | 山札24枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札34枚
+バトル場: Fezandipiti ex HP70/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  3. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Area Zero Underdepths[Stadium], Earthen Vessel[Item]]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  2. [5] Earthen Vesselを使う
+  3. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  4. [167] にげる → Fan Rotomと入れ替え
+  5. [168] にげる → Noctowlと入れ替え
+  6. [169] にげる → Dittoと入れ替え
+  7. [170] にげる → Noctowlと入れ替え
+  8. [171] にげる → Hoothootと入れ替え
+  9. [172] にげる → Psyduckと入れ替え
+  10. [173] にげる → Raging Bolt exと入れ替え
+  11. [174] ターン終了
+→ 選択: [5]
+
+=== あなたのターン (T17) ===
+あなた: サイド残り3枚(取得3) | 手札6枚 | 山札22枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×2] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札34枚
+バトル場: Fezandipiti ex HP70/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  3. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Fighting Energy, Grass Energy]
+有効なアクション:
+  1. [132] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  2. [133] Fighting EnergyをFan Rotomに付ける
+  3. [134] Fighting EnergyをNoctowlに付ける
+  4. [135] Fighting EnergyをDittoに付ける
+  5. [136] Fighting EnergyをNoctowlに付ける
+  6. [137] Fighting EnergyをHoothootに付ける
+  7. [138] Fighting EnergyをPsyduckに付ける
+  8. [139] Fighting EnergyをRaging Bolt exに付ける
+  9. [140] Grass EnergyをTeal Mask Ogerpon exに付ける
+  10. [141] Grass EnergyをFan Rotomに付ける
+  11. [142] Grass EnergyをNoctowlに付ける
+  12. [143] Grass EnergyをDittoに付ける
+  13. [144] Grass EnergyをNoctowlに付ける
+  14. [145] Grass EnergyをHoothootに付ける
+  15. [146] Grass EnergyをPsyduckに付ける
+  16. [147] Grass EnergyをRaging Bolt exに付ける
+  17. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  18. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  19. [167] にげる → Fan Rotomと入れ替え
+  20. [168] にげる → Noctowlと入れ替え
+  21. [169] にげる → Dittoと入れ替え
+  22. [170] にげる → Noctowlと入れ替え
+  23. [171] にげる → Hoothootと入れ替え
+  24. [172] にげる → Psyduckと入れ替え
+  25. [173] にげる → Raging Bolt exと入れ替え
+  26. [174] ターン終了
+  27. [96] Fighting EnergyをFan Rotomに付ける
+  28. [97] Grass EnergyをFan Rotomに付ける
+  29. [248] 特性「Teal Dance」を使う(Teal Mask Ogerpon ex)
+→ 選択: [248]
+
+=== あなたのターン (T17) ===
+あなた: サイド残り3枚(取得3) | 手札6枚 | 山札21枚
+バトル場: Fan Rotom HP70/70 [闘×2, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×3] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札34枚
+バトル場: Fezandipiti ex HP70/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  3. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Fighting Energy, Raging Bolt ex(Basic)]
+有効なアクション:
+  1. [132] Fighting EnergyをTeal Mask Ogerpon exに付ける
+  2. [133] Fighting EnergyをFan Rotomに付ける
+  3. [134] Fighting EnergyをNoctowlに付ける
+  4. [135] Fighting EnergyをDittoに付ける
+  5. [136] Fighting EnergyをNoctowlに付ける
+  6. [137] Fighting EnergyをHoothootに付ける
+  7. [138] Fighting EnergyをPsyduckに付ける
+  8. [139] Fighting EnergyをRaging Bolt exに付ける
+  9. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  10. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  11. [167] にげる → Fan Rotomと入れ替え
+  12. [168] にげる → Noctowlと入れ替え
+  13. [169] にげる → Dittoと入れ替え
+  14. [170] にげる → Noctowlと入れ替え
+  15. [171] にげる → Hoothootと入れ替え
+  16. [172] にげる → Psyduckと入れ替え
+  17. [173] にげる → Raging Bolt exと入れ替え
+  18. [174] ターン終了
+  19. [96] Fighting EnergyをFan Rotomに付ける
+→ 選択: [96]
+
+=== あなたのターン (T17) ===
+あなた: サイド残り3枚(取得3) | 手札5枚 | 山札21枚
+バトル場: Fan Rotom HP70/70 [闘×3, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×3] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札34枚
+バトル場: Fezandipiti ex HP70/210 [エネなし] [ex]
+    特性:Flip the Script
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  3. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic)]
+状態: エネルギー付与済み
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Fezandipiti exに70+ダメージ
+  2. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  3. [167] にげる → Fan Rotomと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Dittoと入れ替え
+  6. [170] にげる → Noctowlと入れ替え
+  7. [171] にげる → Hoothootと入れ替え
+  8. [172] にげる → Psyduckと入れ替え
+  9. [173] にげる → Raging Bolt exと入れ替え
+  10. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T17) ===
+あなた: サイド残り1枚(取得5) | 手札7枚 | 山札21枚
+バトル場: Fan Rotom HP70/70 [闘×3, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×3] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札3枚 | 山札34枚
+バトル場: Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Prime Catcher[Item], Grass Energy]
+状態: エネルギー付与済み, 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札8枚 | 山札20枚
+バトル場: Fan Rotom HP70/70 [闘×3, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×3] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt HP130/130 [水×1]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Raging Bolt ex HP240/240 [エネなし] [ex]
+  3. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  4. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Prime Catcher[Item], Grass Energy, Artazon[Stadium]]
+有効なアクション:
+  1. [5] Prime Catcherを使う
+  2. [7] Artazonを使う
+  3. [148] Grass EnergyをTeal Mask Ogerpon exに付ける
+  4. [149] Grass EnergyをFan Rotomに付ける
+  5. [150] Grass EnergyをNoctowlに付ける
+  6. [151] Grass EnergyをDittoに付ける
+  7. [152] Grass EnergyをNoctowlに付ける
+  8. [153] Grass EnergyをHoothootに付ける
+  9. [154] Grass EnergyをPsyduckに付ける
+  10. [155] Grass EnergyをRaging Bolt exに付ける
+  11. [164] 技「Assault Landing」を使う → Raging Boltに70+ダメージ
+  12. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  13. [167] にげる → Fan Rotomと入れ替え
+  14. [168] にげる → Noctowlと入れ替え
+  15. [169] にげる → Dittoと入れ替え
+  16. [170] にげる → Noctowlと入れ替え
+  17. [171] にげる → Hoothootと入れ替え
+  18. [172] にげる → Psyduckと入れ替え
+  19. [173] にげる → Raging Bolt exと入れ替え
+  20. [174] ターン終了
+  21. [98] Grass EnergyをFan Rotomに付ける
+  22. [248] 特性「Teal Dance」を使う(Teal Mask Ogerpon ex)
+→ 選択: [248]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札8枚 | 山札19枚
+バトル場: Fan Rotom HP70/70 [闘×3, 雷×3, 水×1]
+    技1: Assault Landing [無色×1] 70ダメ → 使用可能 (If there is no Stadium in play, this attack does nothing.)
+    特性: Fan Call (Once during your first turn, you may search your deck for up)
+ベンチ:
+  1. Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    特性:Teal Dance
+  2. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  6. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  7. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  8. Raging Bolt ex HP240/240 [エネなし] [ex]
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt HP130/130 [水×1]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Raging Bolt ex HP240/240 [エネなし] [ex]
+  3. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  4. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Prime Catcher[Item], Artazon[Stadium], Wellspring Mask Ogerpon ex(Basic)]
+有効なアクション:
+  1. [164] 技「Assault Landing」を使う → Raging Boltに70+ダメージ
+  2. [5] Prime Catcherを使う
+  3. [166] にげる → Teal Mask Ogerpon exと入れ替え
+  4. [6] Artazonを使う
+  5. [167] にげる → Fan Rotomと入れ替え
+  6. [168] にげる → Noctowlと入れ替え
+  7. [169] にげる → Dittoと入れ替え
+  8. [170] にげる → Noctowlと入れ替え
+  9. [171] にげる → Hoothootと入れ替え
+  10. [172] にげる → Psyduckと入れ替え
+  11. [173] にげる → Raging Bolt exと入れ替え
+  12. [174] ターン終了
+→ 選択: [5]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札7枚 | 山札19枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+  6. Psyduck HP70/70 [エネなし]
+    特性:Damp
+  7. Raging Bolt ex HP240/240 [エネなし] [ex]
+  8. Fan Rotom HP70/70 [闘×3, 雷×3, 水×1]
+    特性:Fan Call
+スタジアム: Area Zero Underdepths
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt ex HP240/240 [エネなし] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Artazon[Stadium], Wellspring Mask Ogerpon ex(Basic)]
+有効なアクション:
+  1. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  2. [5] Artazonを使う
+  3. [166] にげる → Fan Rotomと入れ替え
+  4. [167] にげる → Noctowlと入れ替え
+  5. [168] にげる → Dittoと入れ替え
+  6. [169] にげる → Noctowlと入れ替え
+  7. [170] にげる → Hoothootと入れ替え
+  8. [171] にげる → Psyduckと入れ替え
+  9. [172] にげる → Raging Bolt exと入れ替え
+  10. [173] にげる → Fan Rotomと入れ替え
+  11. [174] ターン終了
+→ 選択: [5]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札6枚 | 山札19枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt ex HP240/240 [エネなし] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Night Stretcher[Item], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Wellspring Mask Ogerpon ex(Basic)]
+有効なアクション:
+  1. [2] Night Stretcherを使う
+  2. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  3. [166] にげる → Fan Rotomと入れ替え
+  4. [167] にげる → Noctowlと入れ替え
+  5. [168] にげる → Dittoと入れ替え
+  6. [169] にげる → Noctowlと入れ替え
+  7. [170] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [2]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札6枚 | 山札19枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt ex HP240/240 [エネなし] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Wellspring Mask Ogerpon ex(Basic), Fan Rotom(Basic)]
+有効なアクション:
+  1. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  2. [166] にげる → Fan Rotomと入れ替え
+  3. [167] にげる → Noctowlと入れ替え
+  4. [168] にげる → Dittoと入れ替え
+  5. [169] にげる → Noctowlと入れ替え
+  6. [170] にげる → Hoothootと入れ替え
+  7. [174] ターン終了
+→ 選択: [164]
+
+=== あなたのターン (T19) ===
+あなた: サイド残り1枚(取得5) | 手札6枚 | 山札19枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札32枚
+バトル場: Raging Bolt ex HP90/240 [エネなし] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [エネなし] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Wellspring Mask Ogerpon ex(Basic), Fan Rotom(Basic)]
+状態: 攻撃済み
+有効なアクション:
+  1. [174] ターン終了
+→ 選択: [174]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札7枚 | 山札18枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Wellspring Mask Ogerpon ex(Basic), Fan Rotom(Basic), Ultra Ball[Item]]
+有効なアクション:
+  1. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  2. [166] にげる → Fan Rotomと入れ替え
+  3. [6] Ultra Ballを使う
+  4. [168] にげる → Dittoと入れ替え
+  5. [167] にげる → Noctowlと入れ替え
+  6. [169] にげる → Noctowlと入れ替え
+  7. [170] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [6]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札5枚 | 山札17枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Hoothoot HP80/80 [エネなし]
+    特性:Insomnia
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Noctowl(Stage 1)]
+有効なアクション:
+  1. [64] ベンチのHoothootをNoctowlに進化
+  2. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  3. [166] にげる → Fan Rotomと入れ替え
+  4. [167] にげる → Noctowlと入れ替え
+  5. [168] にげる → Dittoと入れ替え
+  6. [169] にげる → Noctowlと入れ替え
+  7. [170] にげる → Hoothootと入れ替え
+  8. [174] ターン終了
+→ 選択: [64]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札6枚 | 山札15枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  2. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  3. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Professor Turo's Scenario[Supporter], Vitality Band[Pokemon Tool]]
+有効なアクション:
+  1. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  2. [4] Professor Turo's Scenarioを使う
+  3. [5] Vitality Bandを使う
+  4. [166] にげる → Fan Rotomと入れ替え
+  5. [167] にげる → Noctowlと入れ替え
+  6. [168] にげる → Dittoと入れ替え
+  7. [169] にげる → Noctowlと入れ替え
+  8. [170] にげる → Noctowlと入れ替え
+  9. [174] ターン終了
+→ 選択: [4]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札6枚 | 山札15枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+ベンチ:
+  1. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Vitality Band[Pokemon Tool], Fan Rotom(Basic)]
+状態: サポーター使用済み
+有効なアクション:
+  1. [2] Mega Kangaskhan exをベンチに出す
+  2. [3] Raging Bolt exをベンチに出す
+  3. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  4. [4] Vitality Bandを使う
+  5. [5] Fan Rotomをベンチに出す
+  6. [166] にげる → Noctowlと入れ替え
+  7. [167] にげる → Dittoと入れ替え
+  8. [168] にげる → Noctowlと入れ替え
+  9. [169] にげる → Noctowlと入れ替え
+  10. [174] ターン終了
+→ 選択: [4]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札5枚 | 山札15枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+    ツール: Vitality Band
+ベンチ:
+  1. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Mega Kangaskhan ex(Basic), Raging Bolt ex(Basic), Fan Rotom(Basic)]
+状態: サポーター使用済み
+有効なアクション:
+  1. [2] Mega Kangaskhan exをベンチに出す
+  2. [3] Raging Bolt exをベンチに出す
+  3. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  4. [4] Fan Rotomをベンチに出す
+  5. [166] にげる → Noctowlと入れ替え
+  6. [167] にげる → Dittoと入れ替え
+  7. [168] にげる → Noctowlと入れ替え
+  8. [169] にげる → Noctowlと入れ替え
+  9. [174] ターン終了
+→ 選択: [2]
+
+=== あなたのターン (T21) ===
+あなた: サイド残り1枚(取得5) | 手札4枚 | 山札15枚
+バトル場: Teal Mask Ogerpon ex HP210/210 [草×4] [ex] [テラスタル]
+    技1: Myriad Leaf Shower [草×3] 30ダメ → 使用可能 (This attack does 30 more damage for each Energy attached to )
+    特性: Teal Dance (Once during your turn, you may attach a Basic Grass Energy c)
+    ツール: Vitality Band
+ベンチ:
+  1. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  2. Ditto HP60/60 [エネなし]
+    特性:Transformative Start
+  3. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  4. Noctowl HP100/100 [エネなし] (Stage 1)
+    特性:Jewel Seeker
+  5. Mega Kangaskhan ex HP300/300 [エネなし] [ex]
+    特性:Run Errand
+スタジアム: Artazon
+
+相手: サイド残り6枚(取得0) | 手札2枚 | 山札28枚
+バトル場: Raging Bolt ex HP90/240 [闘×1] [ex]
+ベンチ:
+  1. Mega Kangaskhan ex HP230/300 [草×1] [ex]
+    特性:Run Errand
+  2. Mew ex HP180/180 [草×1] [ex]
+    特性:Restart
+  3. Fan Rotom HP70/70 [エネなし]
+    特性:Fan Call
+  4. Raging Bolt HP130/130 [水×1]
+  5. Wellspring Mask Ogerpon ex HP210/210 [エネなし] [ex] [テラスタル]
+
+手札: [Professor Sada's Vitality[Supporter], Professor Sada's Vitality[Supporter], Raging Bolt ex(Basic), Fan Rotom(Basic)]
+状態: サポーター使用済み
+有効なアクション:
+  1. [164] 技「Myriad Leaf Shower」を使う → Raging Bolt exに30+ダメージ
+  2. [166] にげる → Noctowlと入れ替え
+  3. [167] にげる → Dittoと入れ替え
+  4. [168] にげる → Noctowlと入れ替え
+  5. [169] にげる → Noctowlと入れ替え
+  6. [170] にげる → Mega Kangaskhan exと入れ替え
+  7. [174] ターン終了
+→ 選択: [164]

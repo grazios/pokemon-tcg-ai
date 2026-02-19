@@ -706,6 +706,34 @@ class Game:
             import random as rng
             while rng.random() < 0.5:
                 damage += 50
+        elif eid == "genome_hacking":
+            # Mew ex: Copy one of the opponent's Active Pokémon's attacks
+            # Use the highest-damage attack from opponent's active
+            if opponent.active and opponent.active.card.attacks:
+                best_atk = max(opponent.active.card.attacks, key=lambda a: a.damage)
+                damage = best_atk.damage
+                # For attacks with special effects, apply the copied effect
+                copied_eid = best_atk.effect_id
+                if copied_eid == "phantom_dive":
+                    damage = 200
+                    if opponent.bench:
+                        counters_left = 6
+                        while counters_left > 0 and opponent.bench:
+                            target = random.choice(opponent.bench)
+                            target.put_damage_counters(1)
+                            counters_left -= 1
+                elif copied_eid == "burning_darkness":
+                    damage = 180 + 30 * opponent.prizes_taken
+                elif copied_eid == "shadow_bind":
+                    damage = 150
+                    if opponent.active:
+                        opponent.active.cant_retreat_next = True
+                elif copied_eid == "eon_blade":
+                    damage = 200
+                    player.active.cant_attack_next = True
+                # Other effects: just use base damage
+            else:
+                damage = 0
         elif eid == "assault_landing":
             if self.stadium is None:
                 damage = 0

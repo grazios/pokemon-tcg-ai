@@ -1,0 +1,13 @@
+{
+  "wins": [
+    691,
+    283
+  ],
+  "draws": 26,
+  "total_turns": 30263,
+  "total_samples": 182957,
+  "errors": 0,
+  "elapsed": 15.20027494430542,
+  "avg_turns": 30.263,
+  "avg_samples_per_game": 182.957
+}
