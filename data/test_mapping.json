@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "total_mappings": 0,
+    "exact_matches": 0,
+    "similarity_matches": 0,
+    "average_similarity": 0
+  },
+  "set_mappings": {
+    "PAL": "sv1S",
+    "OBF": "sv3",
+    "MEW": "sv2D",
+    "PAR": "sv1V",
+    "TEF": "sv2P",
+    "BST": "S6",
+    "CRE": "S7",
+    "EVS": "S7",
+    "CEL": "S8",
+    "BRS": "S9",
+    "ASR": "S10",
+    "PGO": "S-P",
+    "LOR": "S11",
+    "SIT": "S12",
+    "CRZ": "S12a"
+  },
+  "name_patterns": {
+    "ex": [
+      "ex",
+      "EX"
+    ],
+    "GX": [
+      "GX"
+    ],
+    "V": [
+      "V"
+    ],
+    "VMAX": [
+      "VMAX",
+      "Vmax"
+    ],
+    "VSTAR": [
+      "VSTAR",
+      "Vstar"
+    ],
+    "Prime": [
+      "プライム",
+      "Prime"
+    ],
+    "BREAK": [
+      "BREAK",
+      "ブレイク"
+    ],
+    "TAG TEAM": [
+      "TAG TEAM",
+      "タッグチーム"
+    ],
+    "Professor's Research": [
+      "博士の研究",
+      "Professor's Research"
+    ],
+    "Boss's Orders": [
+      "ボスの指令",
+      "Boss's Orders"
+    ],
+    "Quick Ball": [
+      "クイックボール",
+      "Quick Ball"
+    ],
+    "Ultra Ball": [
+      "ハイパーボール",
+      "Ultra Ball"
+    ],
+    "Professor Oak": [
+      "オーキド博士",
+      "Professor Oak"
+    ],
+    "Basic Energy": [
+      "基本エネルギー",
+      "Basic Energy"
+    ],
+    "Double Colorless Energy": [
+      "ダブル無色エネルギー",
+      "Double Colorless Energy"
+    ]
+  },
+  "mappings": []
+}

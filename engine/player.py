@@ -354,6 +354,7 @@ class Player:
         """ターン開始時のリセット"""
         self.energy_attached_this_turn = False
         self.supporter_played_this_turn = False
+        self._played_card_this_turn = False
         self.stadium_played_this_turn = False
         self.fan_call_used_this_turn = False
         self.flip_the_script_used_this_turn = False
