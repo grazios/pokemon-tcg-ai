@@ -609,6 +609,52 @@ class Game:
                         opponent.active.put_damage_counters(moved)
             break
     
+    def _estimate_effect_damage(self, player: Player, opponent: Player, eid: str, base_damage: int) -> int:
+        """副作用なしで技のダメージを推定する（Genome Hackingの技選択用）"""
+        if eid == "burning_darkness":
+            return 180 + 30 * opponent.prizes_taken
+        elif eid == "bellowing_thunder":
+            total = sum(sum(1 for e in p.attached_energy if not e.is_special)
+                        for p in player.get_all_pokemon_in_play())
+            return 70 * total
+        elif eid == "phantom_dive":
+            return 200  # + bench damage counters (side effect)
+        elif eid == "myriad_leaf_shower":
+            total_energy = player.active.total_energy() + (opponent.active.total_energy() if opponent.active else 0)
+            return 30 + 30 * total_energy
+        elif eid == "burst_roar":
+            return 0  # draw support, no damage
+        elif eid == "unified_beatdown":
+            return 30 * len(player.bench)
+        elif eid == "crown_opal":
+            return 180
+        elif eid == "cruel_arrow":
+            return 100  # bench snipe
+        elif eid == "thunderburst_storm":
+            return 0  # bench damage counters only
+        elif eid == "megafire_of_envy":
+            return 140 if player.pokemon_knocked_out_last_turn else 50
+        elif eid == "flare_bringer":
+            return 0  # energy recovery
+        elif eid == "shadow_bind":
+            return 150
+        elif eid == "blustery_wind":
+            return 120
+        elif eid == "eon_blade":
+            return 200
+        elif eid == "rapid_fire_combo":
+            return 200  # expected ~300 with coin flips but 200 guaranteed
+        elif eid == "assault_landing":
+            return 70 if self.stadium else 0
+        elif eid == "triple_stab":
+            return 15  # expected value: 1.5 * 10
+        elif eid == "call_for_family":
+            return 0
+        elif eid == "blazing_destruction":
+            return 0  # energy discard effect
+        else:
+            return base_damage
+
     def _resolve_effect(self, player: Player, opponent: Player, eid: str, base_damage: int) -> int:
         """技の効果を解決してダメージ値を返す。副作用（ベンチダメカン等）もここで処理。"""
         damage = base_damage
@@ -701,11 +747,16 @@ class Game:
                 damage += 50
         elif eid == "genome_hacking":
             # Mew ex: Copy one of the opponent's Active Pokémon's attacks
-            # Select the best attack considering full effect resolution
+            # Evaluate ALL attacks by estimated effective damage, then execute the best
             if opponent.active and opponent.active.card.attacks:
-                best_atk = max(opponent.active.card.attacks, key=lambda a: a.damage)
+                candidates = [a for a in opponent.active.card.attacks
+                              if a.effect_id != "genome_hacking"]
+                if not candidates:
+                    candidates = opponent.active.card.attacks
+                best_atk = max(candidates,
+                               key=lambda a: self._estimate_effect_damage(
+                                   player, opponent, a.effect_id, a.damage))
                 copied_eid = best_atk.effect_id
-                # Recursively resolve the copied attack's effect (prevent infinite loop)
                 if copied_eid and copied_eid != "genome_hacking":
                     damage = self._resolve_effect(player, opponent, copied_eid, best_atk.damage)
                 else:
