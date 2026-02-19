@@ -255,7 +255,7 @@ class PTCGEnv(gym.Env):
         obs[g+18] = (me.max_bench - len(me.bench)) / 5.0  # bench free slots
         obs[g+19] = len(me.bench) / 5.0
         obs[g+20] = len(opp.bench) / 5.0
-        obs[g+21] = 1.0 if self.game.pending_genome_hack else 0.0
+        obs[g+21] = 1.0 if self.game.pending_copy_attack else 0.0
         
         return obs
     

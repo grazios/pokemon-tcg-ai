@@ -32,7 +32,7 @@ class Game:
         self.first_player: int = 0
         self.briar_active: bool = False
         self.acerola_target: PokemonInPlay | None = None
-        self.pending_genome_hack: bool = False
+        self.pending_copy_attack: bool = False
         # Prize tracking for sparse reward
         self._prev_prizes_taken: list[int] = [0, 0]
     
@@ -49,7 +49,7 @@ class Game:
         self.stadium_owner = -1
         self.briar_active = False
         self.acerola_target = None
-        self.pending_genome_hack = False
+        self.pending_copy_attack = False
         self._prev_prizes_taken = [0, 0]
         
         self.first_player = random.randint(0, 1)
@@ -79,7 +79,7 @@ class Game:
             "is_first_turn_of_game": self.turn_count == 1,
             "turn_count": self.turn_count,
             "stadium": self.stadium,
-            "pending_genome_hack": self.pending_genome_hack,
+            "pending_copy_attack": self.pending_copy_attack,
         }
     
     def get_valid_actions(self) -> list[int]:
@@ -153,15 +153,15 @@ class Game:
                     bi = info.get("bench_idx", 0)
                     if bi < len(player.bench):
                         self._handle_ability(player, opponent, player.bench[bi])
-            elif atype == "genome_hack_copy":
-                self._execute_genome_hack(player, opponent, info["attack_idx"])
+            elif atype == "copy_attack":
+                self._execute_copy_attack(player, opponent, info["attack_idx"])
             elif atype == "end_turn":
-                if self.pending_genome_hack:
+                if self.pending_copy_attack:
                     # 相手に技がない→Genome Hack不発
-                    self.pending_genome_hack = False
+                    self.pending_copy_attack = False
                 self._end_turn()
         except Exception:
-            self.pending_genome_hack = False
+            self.pending_copy_attack = False
             self._end_turn()
         
         if not self.done:
@@ -708,12 +708,11 @@ class Game:
             import random as rng
             while rng.random() < 0.5:
                 damage += 50
-        elif eid == "genome_hacking":
-            # Mew ex: プレイヤーが相手の技を1つ選ぶ（サブアクション）
+        elif eid in ("genome_hacking", "metronome", "copy_attack"):
+            # 技コピー系: プレイヤーが相手の技を1つ選ぶ（サブアクション）
             if opponent.active and opponent.active.card.attacks:
-                self.pending_genome_hack = True
-                # ダメージ適用は _execute_genome_hack で行う（stepに戻る）
-                return 0
+                self.pending_copy_attack = True
+                return 0  # ダメージ適用は _execute_copy_attack で行う
             else:
                 damage = 0
         elif eid == "assault_landing":
@@ -778,9 +777,9 @@ class Game:
         
         self.briar_active = False
     
-    def _execute_genome_hack(self, player: Player, opponent: Player, attack_idx: int):
-        """Genome Hacking: プレイヤーが選んだ相手の技をコピーして実行"""
-        self.pending_genome_hack = False
+    def _execute_copy_attack(self, player: Player, opponent: Player, attack_idx: int):
+        """技コピー系: プレイヤーが選んだ相手の技をコピーして実行"""
+        self.pending_copy_attack = False
         
         if not opponent.active or attack_idx >= len(opponent.active.card.attacks):
             return
@@ -788,8 +787,8 @@ class Game:
         copied_attack = opponent.active.card.attacks[attack_idx]
         copied_eid = copied_attack.effect_id
         
-        # コピーした技の効果を解決
-        if copied_eid and copied_eid != "genome_hacking":
+        # コピーした技の効果を解決（コピー技の無限ループ防止）
+        if copied_eid and copied_eid not in ("genome_hacking", "metronome", "copy_attack"):
             damage = self._resolve_effect(player, opponent, copied_eid, copied_attack.damage)
         else:
             damage = copied_attack.damage
